@@ -1,4 +1,4 @@
-rootProject.name = "DecomposeSample"
+rootProject.name = "KarmaCall"
 enableFeaturePreview("TYPESAFE_PROJECT_ACCESSORS")
 
 pluginManagement {
