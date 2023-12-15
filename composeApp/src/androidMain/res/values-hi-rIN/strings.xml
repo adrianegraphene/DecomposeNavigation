@@ -1,0 +1,223 @@
+<resources>
+    tools:ignore="id"
+    <string name="permission_read_phone_state">फ़ोन की स्थिति पढ़ें</string>
+    <string name="permission_read_contacts">संपर्क पढ़ें</string>
+    <string name="permission_answer_phone_calls">कॉल्स का उत्तर दें</string>
+    <string name="permission_call_phone">कॉल करें</string>
+    <string name="My_Country_Code">मेरा देश कोड</string>
+    <string name="blocked_call_notifications">अवरोधित कॉल अलर्ट चुनें</string>
+    <string-array name="notification_options">
+        <item>तुरंत सूचित करें</item>
+        <!--        <item>दिन के अंत में सूचित करें</item>-->
+        <item>कोई सूचनाएं नहीं</item>
+    </string-array>
+    <string name="call_was_blocked">कॉल अवरोधित की गई थी</string>
+    <string name="rate_limit_exceeded_message">आपने सीमा पर पहुंच ली है। कृपया 5 मिनट इंतजार करें और फिर से प्रयास करें।</string>
+    <string name="delete_data_popup_message">मैं कर्मकॉल से अपना डेटा हटाना चाहता हूं। मैं समझता/समझती हूं कि अब मेरे नैनो खाते तक मेरी पहुंच नहीं होगी
+    जो मेरे कर्मकॉल खाते से जुड़ा है।</string>
+    <string name="delete_data_long">यदि आप हमारे रिकॉर्ड से अपना डेटा हटाना चाहते हैं, तो कृपया नीचे दिए गए बटन पर क्लिक करें।
+    चेतावनी - एक बार जब आप अपना डेटा हटा देते हैं, तो आप अपने नैनो खाते तक नहीं पहुंच पाएंगे।</string>
+    <string name="delete_data">मेरा डेटा हटाएं</string>
+    <string name="shareBody">मुझे कर्मचॉल के साथ फोन स्पैम कॉल को ब्लॉक करने के लिए भुगतान मिलता है!
+        यहां साइन अप करें और जब आप अपना पहला कॉल ब्लॉक करेंगे तो हम दोनों अतिरिक्त भुगतान करेंगे।</string>
+    <string name="invite">आमंत्रण</string>
+    <string name="referrals">रेफरल</string>
+    <string name="is">है</string>
+    <string name="errorRetrievingFunds">धन वापसी में त्रुटि</string>
+    <string name="codeColon">कोड: </string>
+    <string name="referralShare">शेयर माय रेफरल</string>
+    <string name="referralInfo">अपने दोस्त के साथ साइन अप करने पर हर बार भुगतान करें
+        आपका रेफरल कोड और उनकी पहली कॉल को ब्लॉक करता है!</string>
+    <string name="appUpdateToKarmaCall">RoboCash का एक नया नाम और लॉग है, KarmCall! हम अपनी यात्रा का अगला चरण आपके साथ ले जाने के लिए बहुत उत्साहित हैं। हम नहीं कर सकते
+        आपको एक शानदार कॉल अनुभव देने के लिए और तरीके बनाने की प्रतीक्षा करें।</string>
+    <string name="enjoyUsing">अगर आपको इस्तेमाल करने में मज़ा आता है&#160;</string>
+    <string name="rateUsPlease">कृपया हमें दर करने के लिए एक क्षण ले लो। आपके समर्थन के लिए धन्यवाद!</string>
+    <string name="rate">मूल्यांकन करें&#160;</string>
+    <string name="remindMeLater">मुझे बाद में याद दिलाना</string>
+    <string name="noThanks">जी नहीं, धन्यवाद</string>
+    <string name="permissionRequestPaid">अनुरोध करने के लिए अनुमतियाँ आप स्पैम को ब्लॉक करने के लिए भुगतान करते हैं</string>
+    <string name="registerToGetPaid">भुगतान पाने के लिए अपना फ़ोन नंबर पंजीकृत करें</string>
+    <string name="referralRewards">रेफरल पुरस्कार</string>
+    <string name="blockingOff">बंद करना</string>
+    <string name="blockingOn">पर ब्लॉक कर रहा है</string>
+    <string name="stopBlockingCalls">कॉल ब्लॉक करना बंद करें</string>
+    <string name="stopBlocking">रोकना बंद करो</string>
+    <string name="startBlockingCalls">कॉलिंग ब्लॉक करना शुरू करें</string>
+    <string name="managePhoneNumber">फ़ोन नंबर प्रबंधित करें</string>
+    <string name="startBlocking">ब्लॉक करना शुरू करें</string>
+    <string name="registerPhoneCashBack">नकदी वापस पाने के लिए कृपया अपना फोन नंबर पंजीकृत करें।</string>
+    <string name="privateNumber">निजी संख्या</string>
+    <string name="no_blocking_simple">नहीं, किसी को भी मुझे फोन करने दो।</string>
+    <string name="yes_blocking_simple">हाँ। केवल नकद कॉल या संपर्क मुझे कॉल करने में सक्षम होना चाहिए।</string>
+    <string name="check_stop_blocking_simple">क्या आप कॉल ब्लॉक करना चाहते हैं?</string>
+    <string name="cancel">रद्द करना</string>
+    <string name="iKnowProceedWithoutPermission">मुझे पता है कि मैं क्या कर रहा हूँ, मुझे अपना ऐप पहले देखने दो!</string>
+    <string name="iWantToSelectCheckboxPermission">मैं आपको मेरा रोबोैश बनाने के लिए चेक बॉक्स का चयन करना चाहता हूं!</string>
+    <string name="yes">हाँ</string>
+    <string name="no">नहीं</string>
+    <string name="welcomeBack">वापसी पर स्वागत है!</string>
+    <string name="notRegisteredYet">पंजीकरण नहीं किया</string>
+    <string name="pleaseAcceptPermissions">कृपया पहले अनुमतियाँ स्वीकार करें</string>
+    <string name="myPhoneNumberIs">मेरा फ़ोन नंबर है&#160;</string>
+    <string name="failedMakeNewNanoAccount">नया नैनो खाता बनाने में विफल। क्या आपके पास पहले से ही एक है? अपना फ़ोन नंबर सत्यापित करने का प्रयास करें</string>
+    <string name="couldNotConfirmNumber">आपके नंबर की पुष्टि नहीं कर सका, कृपया अपना फ़ोन नंबर अपडेट करने का प्रयास करें, धन्यवाद</string>
+    <string name="errorGettingExistingNanoAccount">मौजूदा नैनो खाते को पुनः प्राप्त करते समय त्रुटि</string>
+    <string name="noPhoneEntered">सत्यापन के लिए कोई फ़ोन नंबर दर्ज नहीं किया गया था</string>
+    <string name="numberNotValidTryAgain">यह एक मान्य संख्या नहीं है, कृपया पुनः प्रयास करें</string>
+    <string name="smsCodeNotEntered">OTP दर्ज नहीं किया गया है, कृपया अपना फ़ोन नंबर अपडेट या सत्यापित करें</string>
+    <string name="verifyFailed">सत्यापन असफल</string>
+    <string name="successWelcomeFuture">सफलता! आने वाला कल आपका स्वागत करता है!</string>
+    <string name="code_not_entered">एसएमएस कोड दर्ज नहीं किया गया</string>
+    <string name="phoneNumberBlank">अपडेट के लिए फ़ोन नंबर रिक्त छोड़ दिया गया था। कृपया पुन: प्रयास करें।</string>
+    <string name="phoneNumberUpdateCancelled">फोन नंबर अपडेट रद्द</string>
+    <string name="already_registered_phone_number">आपने पहले ही अपना फोन नंबर पंजीकृत कर लिया है</string>
+    <string name="sorry_some_error_balance">क्षमा करें, आपका संतुलन देखते समय कुछ त्रुटि हुई</string>
+    <string name="sorry_some_error">क्षमा करें, कुछ त्रुटि हुई</string>
+    <string name="withdraw_failed">असफल रहा। अपनी राशि या नैनो निकासी पते की दोबारा जांच करें</string>
+    <string name="withdraw_success">आपका भेजा सफल रहा!</string>
+    <string name="invalid_nano_format">अमान्य नैनो खाता प्रारूप। कृपया टाइपो के लिए अपने नैनो खाते की प्रविष्टि को दोबारा जांचें</string>
+    <string name="enter_amount_withdraw">वापस लेने के लिए आपको एक राशि दर्ज करनी होगी</string>
+    <string name="error_with_faucet">नल का उपयोग करते समय त्रुटि, कृपया पुनः प्रयास करें</string>
+    <string name="some_error_balance">क्षमा करें, आपका संतुलन देखते समय कुछ त्रुटि हुई</string>
+    <string name="coming_soon">जल्द आ रहा है!</string>
+    <string name="faucet_of_knowledge">आपने पहले ही नल का उपयोग किया है, कृपया दूसरों को ज्ञान के फव्वारे से पीने की अनुमति दें</string>
+    <string name="no_nano_account_register_please">आपके पास अभी तक कोई नैनो खाता नहीं है। अपना फ़ोन नंबर पंजीकृत करने का प्रयास करें</string>
+    <string name="faucet_nano_received">आपने 0.0001 नैनो प्राप्त की है!</string>
+    <string name="terms_conditions">हमारी सेवाओं का उपयोग करके, आप हमारी गोपनीयता नीति को स्वीकार करते हैं</string>
+    <string name="faucet_free">नल = मुफ्त $ $ $</string>
+    <string name="send_email">ईमेल भेजें</string>
+    <string name="feedback_comments">कृपया हमें प्रतिक्रिया, टिप्पणियाँ, प्रश्न या चिंताएं छोड़ दें। धन्यवाद!</string>
+    <string name="choose_your_language">कृपया अपनी भाषा चुनें</string>
+    <string name="language">भाषा: हिन्दी</string>
+    <string name="check_stop_blocking">मैं केवल अपने फोन को बजाने के लिए नकद कॉल और संपर्क चाहता हूं।</string>
+    <string name="stop_start_blocking">रोकना / रोकना शुरू करें</string>
+    <string name="blockedCalls">अवरुद्ध कॉल</string>
+    <string name="version">संस्करण&#160;</string>
+    <string name="globalUserPhoneNumber">com.fyncom.robocash.UserPhoneNumber</string>
+    <string name="globalUserNanoAccount">com.fyncom.robocash.UserNanoAccount</string>
+    <string name="globalNewFaucetUser">com.fyncom.robocash.NewFaucetUser</string>
+    <string name="globalUserId">com.fyncom.robocash.UserId</string>
+    <string name="globalWalletId">com.fyncom.robocash.WalletId</string>
+    <string name="globalLastVerificationSession">com.fyncom.robocash.LastVerificationSession</string>
+    <string name="globalCountryCode">com.fyncom.robocash.CountryCode</string>
+    <string name="Settings">समायोजन</string>
+    <string name="Wallet">बटुआ</string>
+    <string name="Contact_Us">संपर्क करें</string>
+    <string name="Coming_soon">जल्द आ रहा है…</string>
+    <string name="Withdraw">निकालना</string>
+    <string name="Withdrawal_Request">वापसी का निवेदन</string>
+    <string name="Deposit">जमा</string>
+    <string name="Faucet">नल का उपयोग करें - तुरंत $ $ प्राप्त करें</string>
+
+
+
+
+    <string name="Nano_address">नैनो एड्रेस</string>
+    <string name="See_my_Nano_account">मेरा नैनो खाता देखें</string>
+    <string name="Nano_account">नैनो खाता</string>
+    <string name="Here_is_your_Nano_account">यहां आपका नैनो खाता है</string>
+    <string name="Gift_cards">गिफ्ट कार्ड</string>
+    <string name="Cash_out_to_USD">अमरीकी डालर को नकद</string>
+    <string name="Nano_value">नैनो वैल्यू</string>
+    <string name="USD">अमरीकी डालर मूल्य</string>
+    <string name="Referral">रेफरल</string>
+    <string name="USD_Funds">यूएसडी फंड</string>
+    <string name="Nano_Funds">नैनो फंड</string>
+    <string name="USD_Earned">USD कमाए गए</string>
+    <string name="Update_My_Nano_Account">मेरा नैनो खाता अपडेट करें</string>
+    <string name="Submit_Ticket">टिकट सबमिट करें</string>
+    <string name="View_Gift_Cards">गिफ्ट कार्ड देखें</string>
+    <string name="Privacy_Policy">गोपनीयता नीति</string>
+    <string name="My_Phone_Number">मेरा फोन नंबर</string>
+    <string name="Enter_Phone_Number">फोन नंबर दर्ज</string>
+    <string name="Update_My_Phone_Number">मेरा फ़ोन नंबर अपडेट करें</string>
+    <string name="Verify_My_Phone_Number">मेरा फ़ोन नंबर सत्यापित करें</string>
+    <string name="Register_My_Phone_Number">मेरा फोन नंबर पंजीकृत करें</string>
+    <string name="Enter_Phone_Number_For_OTP">एसएमएस के माध्यम से आपके द्वारा भेजे गए वन-टाइम पासवर्ड प्राप्त करने के लिए कृपया इस उपकरण का फ़ोन नंबर दर्ज करें</string>
+    <string name="Enter_OTP_Response">कृपया वह पासवर्ड डालें जो आपके लिए गड़बड़ था</string>
+    <string name="My_OTP">मेरा 6 अंकों का कोड</string>
+    <string name="Amount_To_Withdraw">वापस लेने के लिए नैनो की राशि दर्ज करें</string>
+    <string name="Enter_Nano_Account_To_Withdraw_To_Below">नीचे अपना बाहरी नैनो खाता दर्ज करें</string>
+    <string name="Open_navigation_drawer">नेविगेशन दराज खोलें</string>
+    <string name="Close_navigation_drawer">नेविगेशन ड्रॉअर बंद करें</string>
+    <string name="Journal">अवरुद्ध कॉल</string>
+    <string name="Information">जानकारी</string>
+    <string name="Exit">बाहर जाएं</string>
+    <string name="SELECT_ALL">सभी का चयन करे</string>
+    <string name="DELETE">हटाएँ</string>
+    <string name="CANCEL">रद्द करना</string>
+    <string name="CONTINUE">जारी रखें</string>
+    <string name="ADD">जोड़ें</string>
+    <string name="Adding_contact">संपर्क जोड़ना</string>
+    <string name="Saving_">सहेजा जा रहा है …</string>
+    <string name="Loading_">लोड हो रहा है…</string>
+    <string name="call_is_blocked">कॉल अवरुद्ध है</string>
+    <string name="message_is_blocked">संदेश अवरुद्ध है</string>
+    <string name="message_is_received">संदेश प्राप्त हुआ</string>
+    <string name="Private_number">निजी संख्या</string>
+    <string name="Search_action">खोज</string>
+    <string name="Starts_with">इसके साथ आरंभ होता है:</string>
+    <string name="Ends_with">इसी के साथ समाप्त होता है:</string>
+    <string name="Delete_record">रिकॉर्ड हटाएं</string>
+    <string name="Copy_number">कॉपी नंबर</string>
+    <string name="Copy_text">पाठ कॉपी करें</string>
+    <string name="Find_similar_records">इसी तरह के रिकॉर्ड का पता लगाएं</string>
+    <string name="Exclude_from_black_list">ब्लैकलिस्ट से संपर्क हटा दें</string>
+    <string name="Move_to_white_list">व्हिटेलिस्ट से संपर्क करें</string>
+    <string name="Move_to_black_list">संपर्क को ब्लैकलिस्ट में ले जाएं</string>
+    <string name="needs_permission">अनुमति चाहिए</string>
+    <string name="needs_permissions">अनुमति चाहिए</string>
+    <string name="Write_message">संदेश लिखो</string>
+    <string name="Copied_to_clipboard">क्लिपबोर्ड पर नकल</string>
+    <string name="Menu_button">मेनू बटन</string>
+    <string name="List_is_empty">सूची खाली है</string>
+    <string name="Logo_motto">अवांछनीय ई - मेल को रोकें। पैसे कमाना।</string>
+    <string name="About">के बारे में</string>
+    <string name="Info_about" />
+    <string name="Welcome">स्वागत हे!</string>
+    <string name="Info_welcome">जब तक वे आपको $ 0.05 NanoDeposit नहीं छोड़ते, हम सभी अज्ञात कॉल आपकी ध्वनि मेल को भेज देंगे।         यदि कोई अनजान कॉल एक से अधिक बार बजता है, तो इसका मतलब है कि वे आपको एक नैनोफ़ोन छोड़ चुके हैं।         NanoDeposit खोने का जोखिम उठाने के लिए अपने समय के बारे में पर्याप्त देखभाल करने वाले लोगों का पता लगाने के लिए उठाओ।         कॉल की तरह नहीं है? 25 सेकंड से पहले लटकाएं और अपना समय बर्बाद करने के लिए उनके नैनोप्रोपोसिट इकट्ठा करें।         ध्यान से सुनें, कुछ कॉलर्स आपको बात रखने के लिए $ 0.05 से अधिक का भुगतान करना चाह सकते हैं;)</string>
+    <string name="FAQ">सामान्य प्रश्न</string>
+    <string name="Info_FAQ">KarmaCall क्या है?         \n        \nKarmaCall एक फोन एप्लिकेशन है जो आपको कष्टप्रद स्पैम और टेलीमार्केटर कॉल को ब्लॉक करने की अनुमति देता है         जबकि पैसा बनाने की प्रक्रिया में!         \nहम आपको हर बार भुगतान करते हैं जब आप हमें आपके लिए कॉल ब्लॉक करते हैं।         \nयदि आप जो फ़ोन नंबर कॉल कर रहे हैं, वह आपकी संपर्क सूची में नहीं है, तो KarmaCall को एक की आवश्यकता होगी         आपको कॉल करने के लिए उस कॉलर के लिए छोटा नैनो जमा। यदि आप उस कॉल का उत्तर देते हैं और 25 सेकंड से पहले लटकाते हैं,         आप नैनो जमा रखने के लिए। यदि आप जवाब देते हैं और कॉल 25 सेकंड से अधिक समय तक रहता है, तो पूरा नैनो         कॉल करने वाले को डिपॉजिट वापस किया जाएगा। यदि कॉलर नैनो डिपॉजिट छोड़ देता है और आप जवाब नहीं देते हैं,         कॉलर पूरी तरह से वापस कर दिया गया है। यदि कॉलर नैनो जमा नहीं छोड़ता है, तो उन्हें भेजा जाता है         सीधे अपने ध्वनि मेल पर।         \n        \nमैं फोन कॉल को कैसे रोक सकता हूँ?         \n        मुख्य मेनू (ऊपरी बाएँ हाथ की ओर) क्लिक करें। \"रोकें /प्रारंभ अवरुद्ध करें \" अवरुद्ध विकल्प पर क्लिक करें।         उस संदेश पर \"नहीं \" विकल्प क्लिक करें जो पॉप अप करता है। अब, जब आप Android क्विक सेटिंग्स मेनू एक्सेस करते हैं         (सिर्फ अपनी उंगली को अपनी स्क्रीन के ऊपर से नीचे की ओर खींचें), आपको अब रोबोकाश को चालू नहीं देखना चाहिए।         \n        \nमैं फोन कॉल फिर से कैसे रोक सकता हूं?         \n        मुख्य मेनू (ऊपरी बाएँ हाथ की ओर) क्लिक करें। \"रोकें /प्रारंभ अवरुद्ध करें \" अवरुद्ध विकल्प पर क्लिक करें।         उस संदेश पर \"Yes \" विकल्प पर क्लिक करें जो पॉप अप करता है। अब, जब आप Android क्विक सेटिंग्स मेनू एक्सेस करते हैं         (अपनी उंगली को अपनी स्क्रीन के ऊपर से नीचे की ओर खींचें), आपको रोबोकैश को चलते हुए देखना चाहिए।         \n        \nरॉबकैश का उपयोग करने के लिए कई अनुमतियाँ क्यों हैं और उनका क्या मतलब है?         \n        \nहमने आपसे 2 अनुमतियां मांगी हैं:         \n1. संपर्क संपर्क         \n2. फ़ोन कॉल करें और प्रबंधित करें         \n        कॉल को सफलतापूर्वक ब्लॉक करने के लिए हमारे ऐप के लिए \nआदेश,         \nहमें आपकी संपर्क सूची तक पहुँच की आवश्यकता है ताकि हम सही कॉल को ब्लॉक या अनुमति दे सकें। हम नहीं देख सकते,         अपनी संपर्क सूची को बिल्कुल बदलें या प्रबंधित करें। संपर्कों के साथ, हमें फोन कॉल का प्रबंधन करने की आवश्यकता है,         जो हमें आपके लिए कॉल ब्लॉक करने की सुविधा देता है। हम आपके फ़ोन को किसी अन्य तरीके से संचालित करने के तरीके को नहीं बदलेंगे।         \n        \nमुझे अपना फ़ोन नंबर प्रदान करने की आवश्यकता क्यों है?         \n        \nरोबोकैश को आपके फ़ोन नंबर की आवश्यकता है ताकि हम आपके लिए एक नैनो खाता बना सकें। हम केवल एक बार आपका फोन नंबर मांगते हैं         और इस जानकारी का किसी के साथ उपयोग या साझा न करें। आपकी गोपनीयता अत्यंत मूल्यवान है और हम करेंगे         इसे उस रास्ते से रखें। यदि आपको अभी भी चिंता है, तो कृपया हमारी गोपनीयता नीति पढ़ें या support@karmacall.com पर संपर्क करें         \n        \nवह 6 अंकीय पासवर्ड क्या है जो मुझे मेरे फोन नंबर को सत्यापित करने पर लिखा गया था?         \n        \nइस को वन टाइम पासवर्ड (OTP) कहा जाता है।         \nयह पासवर्ड सुनिश्चित करने के लिए एक सत्यापन विधि है कि आप आप हैं। यह बहुत महत्वपूर्ण है कि आप इसे साझा न करें         किसी के साथ पासवर्ड, क्योंकि यह किसी और को आपके खाते और जानकारी तक पहुंच दे सकता है।         \nयह सुनिश्चित करें कि आप इस पासवर्ड को दर्ज करते हैं और अपने फ़ोन नंबर को सत्यापित करने के बाद इसे हटा देते हैं।         \n        \nक्या रोबोकाश मेरी निजी जानकारी एकत्र करता है?         \n        \nबिल्कुल नहीं।         \nकेवल जानकारी के लिए हमें आपका फ़ोन नंबर चाहिए। हमें आपकी किसी भी व्यक्तिगत जानकारी और आपकी जरूरत नहीं है         गोपनीयता हमारे लिए एक प्राथमिक चिंता का विषय है। यदि आपके कोई और प्रश्न हैं, तो कृपया हमारी गोपनीयता नीति पढ़ें         या support@karmacall.com पर हमसे संपर्क करें         \n        \nमैं अपना संतुलन कैसे देख सकता हूँ?         \n        \nआप "वॉलेट" पृष्ठ पर अपना शेष देख सकते हैं, जिसे मुख्य का उपयोग करके पहुँचा जा सकता है         संचालन सूची। आपका शेष USD मुद्रा के रूप में उस पृष्ठ के शीर्ष पर प्रदर्शित होगा।         इसके अलावा, आप "WITHDRAW" बटन पर क्लिक कर सकते हैं और यह पृष्ठ आपका संतुलन प्रदर्शित करेगा         USD और नैनो मुद्राओं में।         \n        \N क्या नैनो है?         \n        \nनैनो ब्लॉकचेन तकनीक पर आधारित एक डिजिटल मुद्रा है। यह तेजी से बनाया गया है,         स्केलेबल और शून्य शुल्क है! हर खाते को अपना ब्लॉकचेन सौंपा जाता है। ज्यादा सीखने के लिए,         आप इस पर जा सकते हैं         \Nhttps://docs.nano.org/what-is-nano/overview        \n        \nएक नैनो खाता क्या है, और इसके साथ रोबोकैश क्या करता है?         \n        एक डिजिटल सिक्का पर्स या एक छोटे से पैसे बैग के रूप में KarmaCall के साथ अपने नैनो खाते का \nThink।         आप हमारी मदद से कम मात्रा में पैसे निकाल सकते हैं और खर्च कर सकते हैं।         हर बार जब आप कॉल ब्लॉक करते हैं, तो हम आपके नैनो खाते में पैसा जमा करते हैं। अगर एक खराब कॉल करने वाला         आप और आप 25 सेकंड से पहले लटक जाते हैं, उस कॉलर की जमा राशि आपके नैनो खाते में चली जाती है।         यह नैनो खाता आपके फ़ोन नंबर के साथ जुड़ा हुआ है, लेकिन आप बाहरी नैनो खाते बना सकते हैं         आप अपने रोबोकैश खाते से नैनो को एक बाहरी नैनो खाते में वापस लेना चाहते हैं जो आपके पास है।         \n        \nमेरे नैनो बैलेंस को वापस लेने के लिए क्या विकल्प हैं?         \n        नैनो संतुलन वापस लेने के लिए कई विकल्प हैं। सबसे पहले, आप एक बाहरी में प्रवेश कर सकते हैं         नैनो खाता पता, और सीधे उस खाते में सीधे धनराशि निकाल लेते हैं। यदि तुम्हारे पास नहीं है         एक बाहरी नैनो खाता पता, हम नल्ली ऐप या नैट्रियम ऐप डाउनलोड करने की सलाह देते हैं।         आप इस लिंक में इन वॉलेट ऐप और बहुत कुछ पा सकते हैं। https://nanowallets.guide        \nनिसंदेह, आप उपहार कार्ड के रूप में धनराशि निकाल सकते हैं। यह सुविधा अभी भी जारी है         21 नवंबर, 2020 तक विकसित और अपेक्षित नहीं है।         यदि आप इसे ऐप के बाहर अपने दम पर आज़माना चाहते हैं, तो https://nanogate.io पर जाएँ         \n        \nमैं अपने नैनो बैलेंस में फंड कैसे जोड़ सकता हूँ?         \n        \nवर्तमान में, हमारे पास उपयोगकर्ताओं को धन जोड़ने की अनुमति देने के लिए ऐप में जमा कार्यक्षमता नहीं है         उनके KarmaCall नैनो खाते के लिए। हालांकि, हमारे पास एक नल है जो आपको एक प्राप्त करने की अनुमति देता है         मुफ्त के लिए तुरंत उपयोग शुरू करने के लिए नैनो की छोटी राशि!         \n        \nएक नल क्या है?         \n        \nनैनो नल एक सिंक नल की तरह है, सिवाय इसके कि यह डिजिटल के छोटे संप्रदायों को फैलाता है         मुद्रा, हमारे मामले में नैनो। हमारे नल प्रत्येक उपयोगकर्ता द्वारा एक बार उपयोग किया जा सकता है। इसके द्वारा किया जा सकता है         "वॉलेट" पृष्ठ पर नेविगेट करना और "FAUCET = मुफ़्त $ $ $" बटन पर क्लिक करना। हमारे प्रयोग से         नल आपको 0.0001 नैनो देगा।         \n        \nमैं नल का उपयोग कैसे करूँ?         \n        \nबस "बटुए" पेज पर हमारे "FAUCET = मुफ़्त $ $ $" बटन पर क्लिक करें और आप करेंगे         तुरन्त नैनो मुफ्त में उपयोग करने के लिए!         \n        \nमैं नल से प्राप्त नैनो के साथ क्या कर सकता हूँ?         \n        \nकृपया कृपया https://usenano.org पर जाएँ ताकि आप अपने नैनो का उपयोग कर सकें। के अंदर         KarmaCall ऐप, हमारे नल से आपको प्राप्त होने वाला नैनो आपको 5 मुफ्त आउटबाउंड कॉल करने की अनुमति देगा         रिसीवर के पास, जिनके पास संपर्क के रूप में आपके पास (कॉलर) नहीं है। यह आपको देगा         अवसर KarmaCall की और अधिक कार्य करने का प्रयास करें।         \n        अगर मुझे किसी भी सहायता की आवश्यकता है, तो क्या मैं समर्थन के संपर्क में आ सकता हूं?         \n        \nआप ऐप के मुख्य नेविगेशन मेनू पर स्थित हमारे "संपर्क करें" पृष्ठ पर जा सकते हैं         ऊपरी बाएँ हाथ का कोना।         इस पृष्ठ पर, आप बस "भेजें ईमेल" बटन पर क्लिक करें, आप जिस ईमेल ऐप का चयन करेंगे         ईमेल भेजने और भेजने के लिए उपयोग करना पसंद करते हैं। आपकी प्रतिक्रिया हमारे लिए महत्वपूर्ण है। हम मदद करना चाहते हैं         किसी भी समस्या के साथ आप अनुभव कर सकते हैं। हमें बताएं कि हम आपके अनुभव को कैसे बना सकते हैं         सबसे अच्छा हम संभवतः कर सकते हैं!         \n        \nमैं ऐप में नया हूं, मुझे ऐप डेमो या ट्यूटोरियल कहां मिल सकता है?         \n        ऐप (या वीडियो ट्यूटोरियल) का \nडेमो हमारी वेबसाइट के मुख्य पृष्ठ पर शुरू होगा         1 नवंबर, 2020 तक।         \n        \nRobCash मुफ़्त है, तो क्या पकड़ है? क्या मैं उत्पाद हूं?         \n        \nहाँ, आप उत्पाद हैं और हमारा मिशन आपको वह भुगतान दिलवाना है जो आप चाहते हैं। वर्तमान में,         आपको हर दिन दिए जाने वाले डेटा के लिए भुगतान नहीं किया जाता है। इसके बजाय, ज्यादातर कंपनियां पैसा बनाती हैं         आपका ध्यान विज्ञापनदाताओं को बेचकर। हमने कंपनियों को आपको भुगतान करने के लिए बाध्य करने का एक तरीका ईजाद किया         आपका ध्यान पाने के लिए आपका समय।         व्यवसायों को वास्तविक, ईमानदार के संपर्क में लाने में मदद करने के लिए \nहमारी प्रौद्योगिकी का उपयोग किया जाएगा         आप जैसे ग्राहक। व्यवसाय आपको लाइन पर रखने के लिए आपको भुगतान करेगा या आप बस कर सकते हैं         अपनी जमा राशि इकट्ठा करने के लिए तुरंत उन पर लटक जाएं! किसी भी तरह से, हम आपको शक्ति देना चाहते हैं         अपने डेटा और समय के लिए भुगतान करने के लिए। बेशक, इन भुगतानों का एक छोटा सा अंश         KarmaCall द्वारा रखा जाएगा ताकि हम बनाने के लिए अपनी तकनीक में सुधार और निर्माण जारी रख सकें         एक ऐसी दुनिया जिसमें हम फिर से सार्थक संचार कर सकें! हमारा लक्ष्य         आपको अपने डेटा के लिए भुगतान करना है और अन्य कंपनियों को यह विश्वास दिलाना है कि वे आपको भुगतान करना चाहिए         आपके डेटा के लिए भी।</string>
+    <string name="permissionRequest">अनुरोध करने के लिए अनुमतियाँ आपका कैश-बैक स्पैम ब्लॉकर होना चाहिए</string>
+    <string name="permissionWarning">इन अनुमतियों के बिना, हम आपके लिए कॉल ब्लॉक नहीं कर सकते। क्या आप सुनिश्चित रूप से आगे बढ़ना चाहते हैं?         आप बाद में ऐप में कॉल-ब्लॉकिंग कार्यक्षमता के लिए अपना फोन नंबर पंजीकृत कर सकते हैं।</string>
+    <string name="android9Warning">क्षमा करें, यह एप्लिकेशन Android 9 के लिए काम नहीं करता है।</string>
+    <string name="permissionPurpose">हमें आपके व्यक्तिगत भुगतान के रूप में सेवा करने के लिए अनुमतियों की आवश्यकता है।         \nहम केवल अनपेक्षित, अनचाही कॉल्स को अवरुद्ध करते हुए, कैश-कॉल और अपने दोस्तों /परिवार को अनुमति देने के लिए इन अनुमतियों का उपयोग करते हैं</string>
+    <string name="permissionRequired">अनुमति सक्षम करें</string>
+    <string name="permissionRequestInformation">यदि आवश्यक हो तो स्ट्रिंग के बारे में यहां रखें</string>
+    <string name="Attention">ध्यान</string>
+    <string name="Messaging">संदेश</string>
+    <string name="Info_messaging">एसएमएस।</string>
+    <string name="Black_list">काली सूची</string>
+    <string name="Info_black_list">काला सूची में डालना</string>
+    <string name="White_list">सफेद सूची</string>
+    <string name="Info_white_list">श्वेतसूची।</string>
+    <string name="Info_journal">यह कॉल /एसएमएस ब्लॉकिंग की घटनाओं के बारे में जानकारी के साथ रिकॉर्ड की सूची है।         सेटिंग में ईवेंट की लॉगिंग को अक्षम किया जा सकता है।</string>
+    <string name="Licence">लाइसेंस</string>
+    <string name="Info_licence">कॉपीराइट</string>
+    <string name="Author">लेखक</string>
+    <string name="Info_author">"KarmaCall"</string>
+    <string name="About_us">हमारे बारे में</string>
+    <string name="About_us_message">एक ऐसे भविष्य की कल्पना करें जहां हर अनजान फोन कॉल IMMEDIATE वित्तीय की गारंटी के साथ आता है         क्षतिपूर्ति, यदि वह अज्ञात कॉलर आपका समय बर्बाद करता है।         \nइस ऐप का उपयोग करके, आप उस भविष्य को वास्तविकता बनाने में हमारी मदद कर रहे हैं। धन्यवाद।         \n\nहमने इसे उन स्कैमर से लड़ने में मदद करने के लिए बनाया है जो $ 10 बिलियन से अधिक की चोरी करते हैं         फोन धोखाधड़ी के माध्यम से कमजोर लोगों से हर साल। हम आपको अपने सबसे अधिक शक्ति देंगे         कीमती वस्तु। तुम्हारा समय।         \n\nयह एप्लिकेशन हमेशा उपयोग करने के लिए स्वतंत्र होगा, क्योंकि हर कोई जो हमसे जुड़ता है, उसका हिस्सा बन जाता है         डेटा स्वामित्व की बड़ी तस्वीर। यदि हम में से बहुत से लोग कॉल का जवाब देने से इनकार करते हैं जब तक कि वे नहीं आते हैं         NanoDeposit संलग्न के साथ, अनुमान है कि नियमित रूप से अनचाहे बनाने वाले लोगों के साथ क्या होता है         कॉल? वे NanoDeposits का उपयोग शुरू करना चाहते हैं। आप अपने डेटा के लिए भुगतान कर रहे हैं,         जिस तरह से यह हमेशा होना चाहिए था।         \n\nहमारी क्रांति का हिस्सा बनने के लिए धन्यवाद।         \n\nहमें क्रूरतापूर्वक ईमानदार प्रतिक्रिया और बग रिपोर्ट के साथ बताएं।         \N \nभवदीय,         \nAEG, DRJ, VJ, JC, PJG, CR</string>
+    <string name="Our_Commitment">हमारी प्रतिबद्धता</string>
+    <string name="Our_Commitment_Description">हमारा मिशन एक ऐसा बाजार बनाना है जो अपने सभी प्रतिभागियों को आर्थिक रूप से पुरस्कृत करे और है         संख्या से मजबूत किया। KarmaCall के माध्यम से, आपका डेटा एक कमोडिटी बन जाता है जो आपके पास है         खुद को बेचने या रखने की शक्ति। हम मानते हैं कि महान व्यवसायों का भविष्य है         साझा समृद्धि और इसके लिए आवश्यक है कि आपको अपने डेटा और समय के लिए आर्थिक रूप से मुआवजा दिया जाए।         \n\nहम नई यूरोपीय संघ की नीति के अनुसार खड़े हैं, हमारे ग्राहकों और उपयोगकर्ताओं को अधिक जानकारी देते हैं         उनके डेटा के साथ क्या होता है।</string>
+    <string name="GDPR">GDPR क्या है?</string>
+    <string name="GDPR_Description">GDPR (जनरल डेटा प्रोटेक्शन रेगुलेशन) 25 मई, 2018 को लागू हुआ         यूरोपीय संघ। GDPR हर उस कंपनी पर लागू होता है जो यूरोपीय संघ के नागरिकों के PII की प्रक्रिया करती है         (व्यक्तिगत पहचान की जानकारी)। यह नया कानून इसके महत्व को प्राथमिकता देता है         कई प्रमुख क्षेत्रों में आपकी व्यक्तिगत जानकारी की सुरक्षा और गोपनीयता। की स्थिति         कैलिफोर्निया ने हाल ही में कैलिफोर्निया उपभोक्ता गोपनीयता अधिनियम (CCPA) पारित किया है। के सभी अधिकार         CCPA को GDPR का अनुपालन करके मिलता है जो KarmaCall करता है, जैसा कि नीचे वर्णित है।         \n\nफ़र्स्ट, रोबोकैश आसानी से सुलभ डेटा संग्रह की सहमति प्रदान करता है         प्रारूप। KarmaCall में, हम आपकी व्यक्तिगत संपर्क जानकारी संग्रहीत करते हैं - फ़ोन नंबर, डिजिटल वॉलेट,         साथ ही अनुबंध के हमारे प्रदर्शन से संबंधित डेटा जो कि डिजिटल रूप से कैप्चर करता है         स्पैम-रोधी उद्देश्यों और हमारे सुधार के लिए आपके कॉल समय की लंबाई के लिए वॉलेट लेनदेन         सेवाएं। आपकी मूल संपर्क जानकारी के साथ, हम आपको कैसे ट्रैक करने के लिए Flurry Analytics का उपयोग करते हैं         हमारे आवेदन का उपयोग करें ताकि हम सीख सकें कि अपने अनुभव को सुखद बनाने के लिए इसे कैसे सुधारें         मुमकिन। कोई अन्य डेटा जो आपके द्वारा प्रदान किया गया VOLUNTARILY है (जनसांख्यिकी और         मनोचिकित्सा), लेकिन हमारी स्पैम-ब्लॉकिंग सुविधाओं के लिए आवश्यक नहीं है, साथ ही संग्रहीत किया जाएगा।         \n\nनिचे, KarmaCall आपके डेटा का अनुरोध करने का अवसर प्रदान करता है। हम डेटा प्रदर्शित करते हैं         वर्तमान में आपके उपयोगकर्ता और /या व्यावसायिक इकाई के तहत उपयोगकर्ता के अनुकूल प्रारूप में आयोजित किया गया है।         KarmaCall किसी भी कारण से किसी भी 3 पार्टी स्रोतों को अपना डेटा नहीं बेचता या प्रदान नहीं करता है।         \n\nThird, KarmaCall अनुरोध पर हटाए गए सभी डेटा को एकत्र करने का विकल्प प्रस्तुत करता है।         यदि आप यह अनुरोध करते हैं, तो हम बिना किसी अन्य आवश्यकता के बिना अनुचित देरी के अनुपालन करेंगे         कानून। उदाहरण के लिए, कुछ वित्तीय डेटा हटाए नहीं जा सकते हैं यदि यह कर रिकॉर्ड के लिए आवश्यक है।         \n\nअधिक जानकारी के लिए,<a href="https://www.techrepublic.com/article/the-eu-general-data-protection-regulation-gdpr-the-smart-persons-guide/"> यूरोपीय संघ GDPR नियमों का अवलोकन यहां पाया जा सकता है।</a> </string>
+    <string-array name="phone_metadata">
+        <item>बराबर है:</item>
+        <item>शामिल हैं:</item>
+        <item>इसके साथ आरंभ होता है:</item>
+        <item>इसी के साथ समाप्त होता है:</item>
+    </string-array>
+    <string name="title_activity_deposit">ActivityDeposit</string>
+    <string name="first_fragment_label">पहला टुकड़ा</string>
+    <string name="second_fragment_label">दूसरा टुकड़ा</string>
+    <string name="next">आगे</string>
+    <string name="previous">पिछला</string>
+    <string name="hello_first_fragment">हैलो पहला टुकड़ा</string>
+    <string name="hello_second_fragment">नमस्ते दूसरा टुकड़ा। Arg: %1$s</string>
+    <string name="CALL">कॉल</string>
+    <string name="readyToHandle">आने वाले कॉल्स संभालने के लिए तैयार</string>
+    <string name="protectedWord">सुरक्षित</string>
+    <string name="press">दबाएं</string>
+    <string name="toStop">रोकने के लिए</string>
+</resources>

@@ -1,0 +1,230 @@
+<resources>
+    tools:ignore="id"
+    <string name="permission_read_phone_state">قراءة حالة الهاتف</string>
+    <string name="permission_read_contacts">قراءة جهات الاتصال</string>
+    <string name="permission_answer_phone_calls">الرد على المكالمات</string>
+    <string name="permission_call_phone">إجراء مكالمات</string>
+    <string name="blocked_call_notifications">حدد تنبيهات المكالمات المحظورة</string>
+    <string-array name="notification_options">
+        <item>إعلام فوري</item>
+        <!--        <item>إعلام في نهاية اليوم</item>-->
+        <item>بدون إشعارات</item>
+    </string-array>
+    <string name="My_Country_Code">رمز بلدي</string>
+    <string name="call_was_blocked">تم حجب المكالمة</string>
+    <string name="rate_limit_exceeded_message">لقد وصلت إلى الحد. يرجى الانتظار 5 دقائق والمحاولة مرة أخرى.</string>
+    <string name="delete_data_popup_message">أريد حذف بياناتي من KarmaCall. أتفهم أنه لن يكون بإمكاني الوصول إلى حساب nano الخاص بي
+    المرتبط بحسابي على KarmaCall.</string>
+    <string name="delete_data_long">إذا كنت ترغب في حذف بياناتك من سجلاتنا ، فالرجاء النقر فوق الزر أدناه.
+    تحذير - بمجرد حذف بياناتك ، لن تتمكن بعد ذلك من الوصول إلى حساب nano الخاص بك.</string>
+    <string name="delete_data">حذف بياناتي</string>
+    <string name="shareBody">أحصل على أموال مقابل حظر المكالمات الهاتفية العشوائية مع KarmaCall!
+        اشترك هنا وسنحصل على أموال إضافية عند حظر مكالمتك الأولى.</string>
+    <string name="invite">يدعو</string>
+    <string name="referrals">الإحالات</string>
+    <string name="is">يكون</string>
+    <string name="errorRetrievingFunds">خطأ في استرداد الأموال</string>
+    <string name="codeColon">رمز: </string>
+    <string name="referralShare">مشاركة إحالتي</string>
+    <string name="referralInfo">احصل على أموال في كل مرة يشترك فيها صديقك
+        رمز الإحالة الخاص بك وحظر مكالمتهم الأولى!</string>
+    <string name="appUpdateToKarmaCall">RoboCash له اسم جديد وسجل جديد ، KarmaCall! نحن متحمسون للغاية لاتخاذ الخطوة التالية في رحلتنا معك. نحن لا نستطيع
+        انتظر لبناء المزيد من الطرق لمنحك تجربة مكالمة رائعة.</string>
+    <string name="enjoyUsing">&#160;إذا كنت تستمتع باستخدام</string>
+    <string name="rateUsPlease">, من فضلك خذ لحظة لتقييمنا. شكرا لدعمك!</string>
+    <string name="rate">&#160;معدل</string>
+    <string name="remindMeLater">ذكرني لاحقا</string>
+    <string name="noThanks">لا شكرا</string>
+    <string name="permissionRequestPaid">طلب أذونات للدفع لك لمنع البريد العشوائي</string>
+    <string name="registerToGetPaid">سجل رقم هاتفك لتحصل على المدفوعات</string>
+    <string name="referralRewards">مكافآت الإحالة</string>
+    <string name="blockingOff">المنع</string>
+    <string name="blockingOn">الحظر على</string>
+    <string name="stopBlockingCalls">توقف عن حظر المكالمات</string>
+    <string name="stopBlocking">توقف عن الحجب</string>
+    <string name="startBlockingCalls">ابدأ في حظر المكالمات</string>
+    <string name="managePhoneNumber">إدارة رقم الهاتف</string>
+    <string name="startBlocking">ابدأ في الحظر</string>
+    <string name="registerPhoneCashBack">يرجى تسجيل رقم هاتفك لاسترداد النقود.</string>
+    <string name="privateNumber">الرقم الشخصي</string>
+    <string name="no_blocking_simple">رقم دع أي شخص يتصل بي.</string>
+    <string name="yes_blocking_simple">نعم. يجب أن تكون المكالمات أو جهات الاتصال النقدية فقط قادرة على الاتصال بي.</string>
+    <string name="check_stop_blocking_simple">هل تريد منع المكالمات؟</string>
+    <string name="cancel">إلغاء</string>
+    <string name="iKnowProceedWithoutPermission">أعرف ما أفعله ، دعني أرى تطبيقك أولاً!</string>
+    <string name="iWantToSelectCheckboxPermission">أريد تحديد خانة الاختيار لأجعلك My KarmaCall!</string>
+    <string name="yes">نعم</string>
+    <string name="no">لا</string>
+    <string name="welcomeBack">مرحبا بعودتك!</string>
+    <string name="notRegisteredYet">لم يتم تسجيلة بعد</string>
+    <string name="pleaseAcceptPermissions">الرجاء قبول الأذونات أولاً</string>
+    <string name="myPhoneNumberIs">&#160;رقم هاتفي هو</string>
+    <string name="failedMakeNewNanoAccount">فشل في إنشاء حساب nano جديد. هل لديك بالفعل واحدة؟ حاول التحقق من رقم هاتفك</string>
+    <string name="couldNotConfirmNumber">تعذر تأكيد رقمك ، يرجى محاولة تحديث رقم هاتفك ، شكرًا لك</string>
+    <string name="errorGettingExistingNanoAccount">خطأ عند استرداد حساب nano موجود</string>
+    <string name="noPhoneEntered">لم يتم إدخال رقم هاتف للتحقق</string>
+    <string name="numberNotValidTryAgain">هذا ليس رقمًا صالحًا ، يرجى المحاولة مرة أخرى</string>
+    <string name="smsCodeNotEntered">لم يتم إدخال OTP ، يرجى تحديث رقم هاتفك أو التحقق منه</string>
+    <string name="verifyFailed">فشل التحقق</string>
+    <string name="successWelcomeFuture">نجاح! مرحبا بكم في المستقبل!</string>
+    <string name="code_not_entered">لم يتم إدخال رمز SMS</string>
+    <string name="phoneNumberBlank">رقم الهاتف للتحديث ترك فارغا. حاول مرة اخرى.</string>
+    <string name="phoneNumberUpdateCancelled">تم إلغاء تحديث رقم الهاتف</string>
+    <string name="already_registered_phone_number">لقد قمت بالفعل بتسجيل رقم هاتفك</string>
+    <string name="sorry_some_error_balance">عذرا ، حدث خطأ ما عند البحث عن رصيدك</string>
+    <string name="sorry_some_error">عذرا ، حدث خطأ ما</string>
+    <string name="withdraw_failed">فشل الانسحاب. تحقق مرة أخرى من المبلغ أو عنوان السحب من nano</string>
+    <string name="withdraw_success">تم الإرسال بنجاح!</string>
+    <string name="invalid_nano_format">تنسيق حساب nano غير صالح. الرجاء إعادة التحقق من إدخال حساب nano الخاص بك بحثًا عن الأخطاء المطبعية</string>
+    <string name="enter_amount_withdraw">يجب عليك إدخال مبلغ لسحبه</string>
+    <string name="error_with_faucet">خطأ عند استخدام الصنبور ، يرجى المحاولة مرة أخرى</string>
+    <string name="some_error_balance">عذرا ، حدث خطأ ما عند البحث عن رصيدك</string>
+    <string name="coming_soon">قريبا!</string>
+    <string name="faucet_of_knowledge">لقد استخدمت الصنبور بالفعل ، يرجى السماح للآخرين بالشرب من ينبوع المعرفة</string>
+    <string name="no_nano_account_register_please">ليس لديك حساب nano حتى الآن. حاول تسجيل رقم هاتفك</string>
+    <string name="faucet_nano_received">لقد تلقيت 0.0001 نانو!</string>
+    <string name="terms_conditions">باستخدام خدماتنا ، فإنك توافق على سياسة الخصوصية الخاصة بنا</string>
+    <string name="faucet_free">صنبور = مجاني $ $</string>
+    <string name="send_email">ارسل بريد الكتروني</string>
+    <string name="feedback_comments">يرجى ترك لنا ملاحظات أو تعليقات أو أسئلة أو مخاوف. شكرا جزيلا!</string>
+    <string name="choose_your_language">الرجاء اختيار لغتك</string>
+    <string name="language">لغة</string>
+    <string name="check_stop_blocking">أريد فقط المكالمات النقدية وجهات الاتصال لرنين هاتفي.</string>
+    <string name="stop_start_blocking">إيقاف / بدء الحظر</string>
+    <string name="blockedCalls">المكالمات المحظورة</string>
+    <string name="version">الإصدار</string>
+    <string name="globalUserPhoneNumber">com.fyncom.robocash.UserPhoneNumber</string>
+    <string name="globalUserNanoAccount">com.fyncom.robocash.UserNanoAccount</string>
+    <string name="globalNewFaucetUser">com.fyncom.robocash.NewFaucetUser</string>
+    <string name="globalUserId">com.fyncom.robocash.UserId</string>
+    <string name="globalWalletId">com.fyncom.robocash.WalletId</string>
+    <string name="globalLastVerificationSession">com.fyncom.robocash.LastVerificationSession</string>
+    <string name="globalCountryCode">com.fyncom.robocash.CountryCode</string>
+    <string name="Settings">إعدادات</string>
+    <string name="Wallet">محفظة نقود</string>
+    <string name="Contact_Us">اتصل بنا</string>
+    <string name="Coming_soon">قريبا…</string>
+    <string name="Withdraw">انسحب</string>
+    <string name="Withdrawal_Request">طلب سحب</string>
+    <string name="Deposit">الوديعة</string>
+    <string name="Faucet">استخدم صنبور - احصل على $$ مجانًا على الفور</string>
+
+
+
+
+    <string name="Nano_address">عنوان نانو</string>
+    <string name="See_my_Nano_account">انظر حسابي نانو</string>
+    <string name="Nano_account">حساب نانو</string>
+    <string name="Here_is_your_Nano_account">هذا هو حساب nano الخاص بك</string>
+    <string name="Gift_cards">بطاقات الهدايا</string>
+    <string name="Cash_out_to_USD">صرف الأموال إلى الدولار الأمريكي</string>
+    <string name="Nano_value">قيمة النانو</string>
+    <string name="USD">قيمة الدولار</string>
+    <string name="Referral">الإحالة</string>
+    <string name="USD_Funds">صناديق الدولار الأمريكي</string>
+    <string name="Nano_Funds">صناديق نانو</string>
+    <string name="USD_Earned">المكتسبة بالدولار الأمريكي</string>
+
+
+
+    <string name="Update_My_Nano_Account">تحديث حساب nano الخاص بي</string>
+    <string name="Submit_Ticket">قدم التذكرة</string>
+    <string name="View_Gift_Cards">عرض بطاقات الهدايا</string>
+    <string name="Privacy_Policy">سياسة خاصة</string>
+    <string name="My_Phone_Number">رقم هاتفي</string>
+    <string name="Enter_Phone_Number">أدخل رقم الهاتف</string>
+    <string name="Update_My_Phone_Number">تحديث رقم هاتفي</string>
+    <string name="Verify_My_Phone_Number">تحقق من رقم هاتفي</string>
+    <string name="Register_My_Phone_Number">تسجيل رقم هاتفي</string>
+    <string name="Enter_Phone_Number_For_OTP">الرجاء إدخال رقم الهاتف الخاص بهذا الجهاز للحصول على كلمة مرور لمرة واحدة يتم إرسالها إليك عبر الرسائل القصيرة</string>
+    <string name="Enter_OTP_Response">الرجاء إدخال كلمة المرور التي تم إرسالها إليك</string>
+    <string name="My_OTP">رمز بلدي المكون من 6 أرقام</string>
+    <string name="Amount_To_Withdraw">أدخل مقدار nano للسحب</string>
+    <string name="Enter_Nano_Account_To_Withdraw_To_Below">أدخل حساب nano الخارجي الخاص بك أدناه</string>
+
+    <string name="Open_navigation_drawer">افتح درج التنقل</string>
+    <string name="Close_navigation_drawer">أغلق درج التنقل</string>
+    <string name="Journal">المكالمات المحظورة</string>
+    <string name="Information">معلومات</string>
+    <string name="Exit">خروج</string>
+    <string name="SELECT_ALL">اختر الكل</string>
+    <string name="DELETE">حذف</string>
+    <string name="CANCEL">إلغاء</string>
+    <string name="CONTINUE">استمر</string>
+    <string name="ADD">أضف</string>
+    <string name="Adding_contact">إضافة جهة اتصال</string>
+    <string name="Saving_">إنقاذ…</string>
+    <string name="Loading_">جار التحميل…</string>
+    <string name="call_is_blocked">تم حظر المكالمة</string>
+    <string name="message_is_blocked">تم حظر الرسالة</string>
+    <string name="message_is_received">تم استلام الرسالة</string>
+    <string name="Private_number">الرقم الشخصي</string>
+    <string name="Search_action">بحث</string>
+    <string name="Starts_with">ابدا ب:</string>
+    <string name="Ends_with">ينتهي بـ:</string>
+    <string name="Delete_record">حذف سجل</string>
+    <string name="Copy_number">رقم النسخ</string>
+    <string name="Copy_text">نسخ النص</string>
+    <string name="Find_similar_records">ابحث عن سجلات مماثلة</string>
+    <string name="Exclude_from_black_list">استبعد جهة الاتصال من القائمة السوداء</string>
+    <string name="Move_to_white_list">انقل جهة الاتصال إلى القائمة البيضاء</string>
+    <string name="Move_to_black_list">انقل جهة الاتصال إلى القائمة السوداء</string>
+    <string name="needs_permission">يحتاج إذن</string>
+    <string name="needs_permissions">يحتاج أذونات</string>
+    <string name="Write_message">اكتب رسالة</string>
+    <string name="Copied_to_clipboard">نسخ إلى الحافظة</string>
+    <string name="Menu_button">زر القائمة</string>
+    <string name="List_is_empty">القائمة فارغة</string>
+    <string name="Logo_motto">توقف عن الانتهاكات. كسب النقود.</string>
+    <string name="About">حول</string>
+    <string name="Info_about" />
+    <string name="Welcome">أهلا بك!</string>
+    <string name="Info_welcome">سنرسل جميع المكالمات غير المعروفة إلى بريدك الصوتي ما لم تترك لك إيداع NanoDep بقيمة 0.05 دولار.         إذا رنّت مكالمة غير معروفة أكثر من مرة ، فهذا يعني أنها تركت لك NanoDeposit.         اختر من الذي اهتم بما يكفي بوقتك للمخاطرة بفقدان NanoDeposit.         لا تحب المكالمة؟ قم بإنهاء المكالمة قبل 25 ثانية واجمع NanoDeposit الخاصة بهم لإضاعة الوقت.         استمع جيدًا ، قد يرغب بعض المتصلين في دفع أكثر من 0.05 دولار أمريكي لتواصل حديثك ؛)</string>
+    <string name="FAQ">التعليمات</string>
+    <string name="Info_FAQ">ما هو KarmaCall؟         \ن         \nKarmaCall هو تطبيق هاتف يسمح لك بحظر الرسائل المزعجة ومكالمات التسويق عبر الهاتف         أثناء جني الأموال في هذه العملية!         \nندفع لك في كل مرة تسمح فيها لنا بحظر مكالمة لك.         \nإذا كان رقم الهاتف الذي يتصل بك غير موجود في قائمة جهات الاتصال الخاصة بك ، فسوف يطلب KarmaCall         إيداع Nano صغير لهذا المتصل للاتصال بك. إذا أجبت على تلك المكالمة وأغلقت المكالمة قبل 25 ثانية ،         يمكنك الاحتفاظ بإيداع Nano. إذا أجبت واستمرت المكالمة أكثر من 25 ثانية ، فإن Nano الكامل         سيتم رد الوديعة إلى المتصل. إذا ترك المتصل إيداع Nano ولم ترد ،         المتصل مسترد بالكامل. إذا لم يترك المتصل إيداع Nano ، فسيتم إرساله         مباشرة إلى بريدك الصوتي.         \ن         \nكيف يمكنني التوقف عن حظر المكالمات الهاتفية؟         \ن         \nانقر فوق القائمة الرئيسية (أعلى الجانب الأيسر). انقر فوق خيار الحظر \"إيقاف /بدء الحظر \".         انقر فوق الخيار \"لا \" على الرسالة المنبثقة. الآن ، عند الوصول إلى قائمة إعدادات Android السريعة         (فقط اسحب إصبعك من أعلى الشاشة إلى أسفل) ، لن ترى KarmaCall قيد التشغيل بعد الآن.         \ن         \nكيف يمكنني بدء حظر المكالمات الهاتفية مرة أخرى؟         \ن         \nانقر فوق القائمة الرئيسية (أعلى الجانب الأيسر). انقر فوق خيار الحظر \"إيقاف /بدء الحظر \".         انقر فوق الخيار \"نعم \" في الرسالة المنبثقة. الآن ، عند الوصول إلى قائمة إعدادات Android السريعة         (فقط اسحب إصبعك من أعلى الشاشة إلى أسفل) ، يجب أن ترى KarmaCall قيد التشغيل.         \ن         \nلماذا توجد أذونات عديدة لاستخدام KarmaCall وماذا تعني؟         \ن         \nنطلب منك إذنين:         \n1. الوصول إلى جهات الاتصال         \n2. إجراء المكالمات الهاتفية وإدارتها         \ن         \nلكي يتمكن تطبيقنا من حظر المتصلين بنجاح ،         \nنحتاج إلى الوصول إلى قائمة جهات الاتصال الخاصة بك حتى نتمكن من حظر المكالمات الصحيحة أو السماح بها. لا نستطيع أن نرى،         تغيير أو إدارة قائمة جهات الاتصال الخاصة بك على الإطلاق. إلى جانب جهات الاتصال ، نحتاج إلى إدارة المكالمات الهاتفية ،         مما يمنحنا القدرة على حظر المكالمات نيابة عنك. لن نغير طريقة عمل هاتفك بأي طريقة أخرى.         \ن         \nلماذا أحتاج إلى تقديم رقم هاتفي؟         \ن         \nيحتاج KarmaCall إلى رقم هاتفك حتى نتمكن من إنشاء حساب Nano لك. نحن نطلب رقم هاتفك مرة واحدة فقط         ولا تستخدم هذه المعلومات أو تشاركها مع أي شخص. خصوصيتك قيمة للغاية وسنفعل         ابقها على هذا النحو. إذا كانت لا تزال لديك مخاوف ، فيرجى قراءة سياسة الخصوصية الخاصة بنا أو الاتصال بنا على support@karmacall.com         \ن         \nما هي كلمة المرور المكونة من 6 أرقام والتي تم إرسالها إليّ عندما تحققت من رقم هاتفي؟         \ن         \nوهذا ما يسمى كلمة المرور لمرة واحدة (OTP).         \nكلمة المرور هذه هي طريقة تحقق للتأكد من هويتك. من المهم جدًا ألا تشارك هذا         كلمة المرور مع أي شخص ، حيث يمكن أن تمنح شخصًا آخر حق الوصول إلى حسابك ومعلوماتك.         \nتأكد من إدخال كلمة المرور هذه وحذفها بمجرد التحقق من رقم هاتفك.         \ن         \nهل يقوم KarmaCall بجمع معلوماتي الشخصية؟         \ن         \nقطعا لا.         \nالمعلومات الوحيدة التي نحتاجها هي رقم هاتفك. نحن لا نحتاج إلى أي من معلوماتك الشخصية و         الخصوصية هي الشغل الشاغل لنا. إذا كانت لديك أي أسئلة أخرى ، فيرجى قراءة سياسة الخصوصية الخاصة بنا         أو اتصل بنا على support@karmacall.com         \ن         \nكيف يمكنني رؤية رصيدي؟         \ن         \nيمكنك عرض رصيدك على صفحة "المحفظة" ، والتي يمكن الوصول إليها باستخدام الصفحة الرئيسية         قائمة الإبحار. سيظهر رصيدك في أعلى تلك الصفحة كعملة الدولار الأمريكي.         علاوة على ذلك ، يمكنك النقر فوق الزر "WITHDRAW" وستعرض هذه الصفحة رصيدك         بعملات الدولار الأمريكي والنانو.         \ن         \nما هو نانو؟         \ن         \nNano هي عملة رقمية تعتمد على تقنية blockchain. إنه مصمم ليكون سريعًا ،         قابلة للتطوير وبدون رسوم! يتم تعيين blockchain الخاص بكل حساب. لتعلم المزيد،         يمكنك زيارة      nhttps://docs.nano.org/what-is-nano/overview/        \ن         \nما هو حساب Nano ، وماذا يفعل KarmaCall به؟         \ن         \nفكر في حساب Nano الخاص بك باستخدام KarmaCall كمحفظة رقمية للعملات المعدنية أو حقيبة نقود صغيرة.         يمكنك سحب وإنفاق مبالغ صغيرة من المال بمساعدتنا.         في كل مرة تقوم فيها بحظر مكالمة ، نقوم بإيداع الأموال في حساب Nano الخاص بك. إذا اتصل المتصل السيئ         أنت وأنت إنهاء المكالمة قبل 25 ثانية ، يتم إيداع إيداع ذلك المتصل في حساب Nano الخاص بك.         يرتبط حساب Nano هذا برقم هاتفك ، ولكن يمكنك إنشاء حسابات Nano خارجية إذا         تريد سحب Nano من حساب KarmaCall الخاص بك إلى حساب Nano خارجي تملكه.         \ن         \nما هي الخيارات المتاحة لي لسحب رصيد Nano الخاص بي؟         \ن         \nهناك عدة خيارات لسحب رصيد Nano. أولاً ، يمكنك إدخال ملف         عنوان حساب Nano ، وسحب الأموال ببساطة إلى هذا الحساب مباشرة. إذا لم يكن لديك         عنوان حساب Nano خارجي ، نوصي بتنزيل تطبيق Nalli أو تطبيق Natrium.         يمكنك العثور على تطبيقات المحفظة هذه والمزيد ، في هذا الرابط. https://nanowallets.guide        \nثانيًا ، يمكنك سحب الأموال في شكل بطاقات هدايا. هذه الميزة لا تزال قائمة         تم تطويره ومن غير المتوقع حتى 21 نوفمبر 2020.         إذا كنت ترغب في تجربة ذلك بنفسك خارج التطبيق ، فتفضل بزيارة https://nanogate.io         \ن         \nكيف يمكنني إضافة أموال إلى رصيد Nano الخاص بي؟         \ن         \nفي الوقت الحالي ، ليس لدينا وظيفة إيداع في التطبيق للسماح للمستخدمين بإضافة أموال         إلى حساب KarmaCall Nano الخاص بهم. ومع ذلك ، لدينا صنبور يسمح لك بالحصول على         كمية صغيرة من نانو لبدء استخدامه على الفور مجانًا!         \ن         \nما هو الصنبور؟         \ن         \nحنفية Nano هي مثل صنبور المغسلة ، إلا أنها توزع فئات صغيرة من الحنفية الرقمية         العملة ، في حالتنا نانو. يمكن استخدام صنبورنا مرة واحدة من قبل كل مستخدم. يمكن القيام بذلك عن طريق         الانتقال إلى صفحة "المحفظة" والنقر على الزر "FAUCET = FREE $$$". باستخدام         صنبور سيمنحك 0.0001 نانو.         \ن         \nكيف أستخدم الصنبور؟         \ن         \nما عليك سوى النقر فوق الزر "FAUCET = FREE $$$" الموجود في صفحة "Wallet" وستفعل ذلك         احصل على الفور على Nano لاستخدامه مجانًا!         \ن         \nماذا يمكنني أن أفعل بالنانو الذي أحصل عليه من الصنبور؟         \ن         \nالرجاء زيارة https://usenano.org لمعرفة الطرق المختلفة التي يمكنك من خلالها استخدام جهاز Nano الخاص بك. في حدود         تطبيق KarmaCall ، سيسمح لك تطبيق Nano الذي تحصل عليه من Faucet بإجراء 5 مكالمات صادرة مجانية         للمستلمين الذين ليس لديك (المتصل) كجهة اتصال. هذا سوف يعطيك         فرصة لتجربة المزيد من وظائف KarmaCall.         \ن         \nكيف يمكنني الاتصال بالدعم إذا احتجت إلى أي مساعدة؟         \ن         \nيمكنك الانتقال إلى صفحة "اتصل بنا" الموجودة في قائمة التنقل الرئيسية للتطبيق في         أعلى الزاوية اليسرى.         في هذه الصفحة ، ما عليك سوى النقر فوق الزر "إرسال بريد إلكتروني" ، وتحديد تطبيق البريد الإلكتروني الذي تريده         ترغب في استخدامها لإرسال البريد الإلكتروني والإرسال. ملاحظاتك مهمة بالنسبة لنا. نريد المساعدة         بأي مشاكل قد تواجهها. دعنا نعرف كيف يمكننا أن نجعل تجربتك         أفضل ما في وسعنا!         \ن         \nأنا مستخدم جديد للتطبيق ، أين يمكنني العثور على عرض توضيحي للتطبيق أو برنامج تعليمي؟         \ن         \nسيتم وضع عرض توضيحي للتطبيق (أو فيديو تعليمي) على الصفحة الرئيسية لموقعنا على الويب بدءًا من         بحلول الأول من نوفمبر 2020.         \ن         \nKarmaCall مجاني ، فما الفائدة؟ هل أنا المنتج؟         \ن         \nنعم ، أنت المنتج ومهمتنا هي أن تدفع لك ما تستحقه. حاليا،         لا يتم الدفع لك مقابل البيانات التي تقدمها كل يوم. بدلاً من ذلك ، تجني معظم الشركات الأموال         ببيع انتباهك للمعلنين. اخترعنا طريقة لإجبار الشركات على الدفع لك         وقتك لجذب انتباهك.         \nستُستخدم تقنيتنا لمساعدة الشركات على التواصل مع الشركات الحقيقية والصادقة         عملاء مثلك. ستدفع لك الشركات من أجل إبقائك على الخط أو يمكنك ذلك فقط         قم بتعليقها على الفور لتحصيل وديعتها! في كلتا الحالتين ، نريد أن نمنحك القوة         للحصول على أموال مقابل بياناتك ووقتك. بالطبع ، جزء صغير من هذه المدفوعات         KarmaCall حتى نتمكن من الاستمرار في التحسين والبناء على تقنيتنا للإبداع         عالم يمكننا من خلاله إجراء اتصالات مفيدة مرة أخرى! مهمتنا         هو أن تدفع لك مقابل بياناتك وأن تقنع الشركات الأخرى بأنه ينبغي عليها أن تدفع لك         لبياناتك أيضًا.</string>
+    <string name="permissionRequest">طلب الأذونات لتكون مانع استرداد الأموال غير المرغوب فيها</string>
+    <string name="permissionWarning">بدون هذه الأذونات ، لا يمكننا حظر المكالمات نيابة عنك. هل انت متأكد انك تريد المتابعة؟         يمكنك تسجيل رقم هاتفك لوظيفة حظر المكالمات في التطبيق لاحقًا.</string>
+    <string name="android9Warning">عذرًا ، هذا التطبيق لا يعمل مع Android 9.</string>
+
+    <string name="permissionPurpose">نحتاج إلى أذونات لتكون بمثابة جدار حماية شخصي خاص بك.         \nنحن نستخدم هذه الأذونات فقط للسماح للمكالمات النقدية وأصدقاؤك /عائلتك من خلالها ، مع حظر المكالمات غير المدفوعة وغير المرغوب فيها</string>
+    <string name="permissionRequired">تمكين الأذونات</string>
+    <string name="permissionRequestInformation">ضع هنا حول السلسلة إذا لزم الأمر</string>
+    <string name="Attention">انتباه</string>
+    <string name="Messaging">المراسلة</string>
+    <string name="Info_messaging">رسالة قصيرة.</string>
+    <string name="Black_list">القائمة السوداء</string>
+    <string name="Info_black_list">القائمة السوداء</string>
+    <string name="White_list">القائمة البيضاء</string>
+    <string name="Info_white_list">القائمة البيضاء.</string>
+    <string name="Info_journal">هذه قائمة السجلات التي تحتوي على معلومات حول أحداث حظر المكالمات /الرسائل القصيرة.         يمكن تعطيل تسجيل الأحداث في الإعدادات.</string>
+    <string name="Licence">رخصة</string>
+    <string name="Info_licence">حقوق النشر</string>
+    <string name="Author">مؤلف</string>
+    <string name="Info_author">"KarmaCall"</string>
+    <string name="About_us">معلومات عنا</string>
+    <string name="About_us_message">تخيل مستقبلاً تأتي فيه كل مكالمة هاتفية غير معروفة بضمان مالي فوري         التعويض ، إذا كان هذا المتصل المجهول يضيع وقتك.         \nباستخدام هذا التطبيق ، فإنك تساعدنا في تحويل المستقبل إلى حقيقة. شكرا جزيلا.         \n\nلقد صنعنا هذا لمساعدتك على مقاومة المحتالين الذين يسرقون أكثر من 10 مليارات دولار         كل عام من الأشخاص المستضعفين من خلال الاحتيال عبر الهاتف. سنمنحك القوة على أكثر ما لديك         سلعة ثمينة. وقتك.         \n\nسيكون هذا التطبيق دائمًا مجانيًا للاستخدام ، لأن كل من ينضم إلينا يصبح جزءًا من         صورة أكبر لملكية البيانات. إذا رفض عدد كاف منا الرد على المكالمات ما لم يأتوا         مع NanoDeposit مرفقًا ، خمن ما يحدث للأشخاص الذين يتصرفون بشكل غير مرغوب فيه بانتظام         المكالمات؟ عليهم البدء في استخدام NanoDeposits. ينتهي بك الأمر إلى الحصول على أموال مقابل بياناتك ،         بالطريقة التي كان يجب أن تكون دائمًا.         \n\nنشكرك على المشاركة في ثورتنا.         \n\nساعدنا في الحصول على تعليقات صادقة وتقارير الأخطاء.         \n\nمع خالص التقدير ،         \nAEG، DRJ، VJ، JC، PJG, CR</string>
+    <string name="Our_Commitment">التزامنا</string>
+    <string name="Our_Commitment_Description">مهمتنا هي إنشاء سوق يكافئ جميع المشاركين مالياً         معززة بالأرقام. من خلال KarmaCall ، تصبح بياناتك سلعة تمتلكها         القدرة على البيع أو الاحتفاظ بها لنفسك. نحن نؤمن أن مستقبل الشركات الكبرى هو         الرخاء المشترك وهذا يتطلب أن يتم تعويضك مالياً عن بياناتك ووقتك.         \n\nنلتزم بسياسة الاتحاد الأوروبي الجديدة ، مما يمنح عملائنا ومستخدمينا دورًا أكبر في ذلك         ماذا يحدث لبياناتهم.</string>
+    <string name="GDPR">ما هو اللائحة العامة لحماية البيانات؟</string>
+
+    <string name="GDPR_Description">دخلت اللائحة العامة لحماية البيانات (GDPR) حيز التنفيذ في 25 مايو 2018 في         الإتحاد الأوربي. تنطبق اللائحة العامة لحماية البيانات (GDPR) على كل شركة تعالج معلومات تحديد الهوية الشخصية لمواطني الاتحاد الأوروبي         (معلومات التعرف الشخصية). هذا القانون الجديد يعطي الأولوية لأهمية         حماية وخصوصية معلوماتك الشخصية في عدة مجالات رئيسية. دولة         أصدرت كاليفورنيا مؤخرًا قانون خصوصية المستهلك في كاليفورنيا (CCPA). جميع حقوق         يتم استيفاء قانون خصوصية المستهلك في كاليفورنيا (CCPA) من خلال الامتثال للقانون العام لحماية البيانات (GDPR) الذي تقوم به KarmaCall ، كما هو موضح أدناه.         \n\nأولاً ، يوفر KarmaCall القدرة على الموافقة على جمع البيانات بطريقة يسهل الوصول إليها         شكل. في KarmaCall ، نقوم بتخزين معلومات الاتصال الشخصية الخاصة بك - رقم الهاتف ، المحفظة الرقمية ،         بالإضافة إلى البيانات المتعلقة بأداء العقد الذي يلتقط جزئيًا رقميًا         معاملات المحفظة لأغراض مكافحة البريد العشوائي وطول أوقات مكالماتك لتحسين         خدمات. إلى جانب معلومات الاتصال الأساسية الخاصة بك ، نستخدم Flurry Analytics لتتبع كيفية قيامك بذلك         استخدم تطبيقنا حتى نتمكن من تعلم كيفية تحسينه لجعل تجربتك ممتعة مثل         ممكن. أي بيانات أخرى تقدمها طوعًا (الخصائص الديمغرافية و         علم النفس) ، ولكنه ليس مطلوبًا لميزات حظر البريد العشوائي لدينا ، سيتم تخزينه أيضًا.         \n\nثانيًا ، توفر KarmaCall الفرصة لطلب بياناتك. نعرض البيانات         محتفظ بها حاليًا تحت اسم المستخدم و /أو كيان عملك بتنسيق سهل الاستخدام.         لا تقوم KarmaCall ببيع أو تقديم بياناتك إلى أي مصادر خارجية لأي سبب من الأسباب.         \n\nثالثًا ، تقدم KarmaCall خيار حذف جميع البيانات التي قمنا بجمعها عند الطلب.         إذا قدمت هذا الطلب ، فسنلتزم به دون تأخير لا داعي له باستثناء ما يطلبه الآخرون         القوانين. على سبيل المثال ، قد لا يتم حذف بعض البيانات المالية إذا كانت مطلوبة لسجلات الضرائب.         \n\nلمزيد من المعلومات ،<a href="https://www.techrepublic.com/article/the-eu-general-data-protection-regulation-gdpr-the-smart-persons-guide/"> يمكن العثور على نظرة عامة على لوائح الاتحاد الأوروبي GDPR هنا.</a> </string>
+    <string-array name="phone_metadata">
+        <item>يساوي:</item>
+        <item>يحتوي على:</item>
+        <item>ابدا ب:</item>
+        <item>ينتهي بـ:</item>
+    </string-array>
+    <string name="title_activity_deposit">النشاط الإيداع</string>
+
+    <string name="first_fragment_label">الجزء الأول</string>
+    <string name="second_fragment_label">الجزء الثاني</string>
+    <string name="next">التالى</string>
+    <string name="previous">السابق</string>
+    <string name="hello_first_fragment">مرحبا الجزء الأول</string>
+    <string name="hello_second_fragment">مرحبا الجزء الثاني. Arg:٪ 1 $ s</string>
+    <string name="CALL">مكالمة</string>
+    <string name="readyToHandle">جاهز للتعامل مع المكالمات الواردة</string>
+    <string name="protectedWord">محمي</string>
+    <string name="press">اضغط</string>
+    <string name="toStop">"لإيقاف "</string>
+</resources>

@@ -1,3 +1,449 @@
+<?xml version="1.0" encoding="utf-8"?>
 <resources>
-    <string name="app_name">KarmaCall</string>
+    tools:ignore="id"
+    <integer name="versionCode">126</integer>
+    <string name="versionName" translatable="false">3.1.3</string>
+    <string name="vNum" translatable="false">Version 3.1.3</string>
+    <string name="permission_read_phone_state">Read Phone State</string>
+    <string name="permission_read_contacts">Read Contacts</string>
+    <string name="permission_answer_phone_calls">Answer Calls</string>
+    <string name="permission_call_phone">Make Calls</string>
+    <string name="My_Country_Code">My Country Code</string>
+    <string name="blocked_call_notifications">Select Blocked Call Alerts</string>
+    <string-array name="notification_options">
+        <item>Notify Immediately</item>
+        <!--        <item>Notify at Day's End</item>-->
+        <item>No Notifications</item>
+    </string-array>
+    <string name="call_was_blocked">call was blocked</string>
+    <string name="rate_limit_exceeded_message">You have reached the limit. Please wait 5 minutes and try again.</string>
+    <string name="delete_data_popup_message">I want to delete my data from KarmaCall. I understand I will no longer have access to my nano account
+    which  is associated with my KarmaCall account. </string>
+    <string name="delete_data_long">If you wish to delete your data from our records, please click the button below.
+    WARNING - once you delete your data, you will no longer be able to access your nano account.</string>
+    <string name="delete_data">Delete My Data</string>
+    <string name="shareBody">I get paid to block phone spam calls with KarmaCall!
+        Sign up here and we will both get paid extra when you block your first call.
+    </string>
+    <string name="invite">Invite</string>
+    <string name="referrals">Referrals</string>
+    <string name="is">is</string>
+    <string name="errorRetrievingFunds">Error Retrieving Funds</string>
+    <string name="codeColon">Code: </string>
+    <string name="referralShare">Share My Referral</string>
+    <string name="referralInfo">Get paid every time your friend signs up with
+        your referral code and blocks their first call!</string>
+    <string name="appUpdateToKarmaCall">RoboCash has a new name and log, KarmaCall! We are very excited to take the next step of our journey with you. We cannot
+        wait to build more ways to give you an awesome call experience.</string>
+    <string name="enjoyUsing">If you enjoy using&#160;</string>
+    <string name="rateUsPlease">, please take a moment to rate us. Thanks for your support!</string>
+    <string name="rate">Rate&#160;</string>
+    <string name="remindMeLater">Remind me later</string>
+    <string name="noThanks">No, thanks</string>
+    <string name="permissionRequestPaid">Requesting Permissions To Pay You To Block Spam</string>
+    <string name="registerToGetPaid">Register Your Phone Number To Get Paid</string>
+    <string name="referralRewards">Referral Rewards</string>
+    <string name="blockingOff">Blocking Off</string>
+    <string name="blockingOn">Blocking On</string>
+    <string name="stopBlockingCalls">Stop Blocking Calls</string>
+    <string name="stopBlocking">Stop Blocking</string>
+    <string name="startBlockingCalls">Start Blocking Calls</string>
+    <string name="managePhoneNumber">Manage Phone Number</string>
+    <string name="startBlocking">Start Blocking</string>
+    <string name="registerPhoneCashBack">Please register your phone number to get cash back.</string>
+    <string name="privateNumber">Private Number</string>
+    <string name="no_blocking_simple">No. Let anyone call me.</string>
+    <string name="yes_blocking_simple">Yes. Only cash calls or contacts should be able to call me.</string>
+    <string name="check_stop_blocking_simple">Do you want to block calls?</string>
+    <string name="cancel">Cancel</string>
+    <string name="iKnowProceedWithoutPermission">I know what I\'m doing, let me see your app first!</string>
+    <string name="iWantToSelectCheckboxPermission">I want to select the check box to make you My KarmaCall!</string>
+    <string name="yes">Yes</string>
+    <string name="no">No</string>
+    <string name="welcomeBack">Welcome back!</string>
+    <string name="notRegisteredYet">not registered yet</string>
+    <string name="pleaseAcceptPermissions">Please accept the permissions first</string>
+    <string name="myPhoneNumberIs">My phone number is&#160;</string>
+    <string name="failedMakeNewNanoAccount">failed to make new nano Account. Do you already have one? Try verifying your phone number</string>
+    <string name="couldNotConfirmNumber">Could not confirm your number, please try updating your phone number, thank you</string>
+    <string name="errorGettingExistingNanoAccount">Error when retrieving existing nano account</string>
+    <string name="noPhoneEntered">No phone number was entered for verification</string>
+    <string name="numberNotValidTryAgain">That is not a valid number, please try again</string>
+    <string name="smsCodeNotEntered">OTP not entered, please update or verify your phone number</string>
+    <string name="verifyFailed">Verification Failed</string>
+    <string name="successWelcomeFuture">Success! Welcome to the future!</string>
+    <string name="code_not_entered">SMS code not entered</string>
+    <string name="phoneNumberBlank">Phone number for update was left blank. Please try again.</string>
+    <string name="phoneNumberUpdateCancelled">Phone number update cancelled</string>
+    <string name="already_registered_phone_number">You Have Already Registered Your Phone Number</string>
+    <string name="sorry_some_error_balance">Sorry, some error happened when looking up your balance</string>
+    <string name="sorry_some_error">Sorry, some error happened</string>
+    <string name="withdraw_failed">Withdraw failed. Double check your amount or nano withdrawal address </string>
+    <string name="withdraw_success">Your send was successful!</string>
+    <string name="invalid_nano_format">Invalid nano account format. Please double-check your nano account entry for typos</string>
+    <string name="enter_amount_withdraw">You must enter an amount to withdraw</string>
+    <string name="error_with_faucet">Error when using faucet, please try again</string>
+    <string name="some_error_balance">Sorry, some error happened when looking up your balance</string>
+    <string name="coming_soon">Coming soon!</string>
+    <string name="faucet_of_knowledge">You have already used the faucet, please allow others to drink from the fountain of knowledge</string>
+    <string name="no_nano_account_register_please">You do not have a nano account yet. Try registering your phone number</string>
+    <string name="faucet_nano_received">You have received 0.0001 nano!</string>
+    <string name="terms_conditions">By Using Our Services, You Hereby Accept Our Privacy Policy &amp; Terms and Conditions</string>
+    <string name="faucet_free">Faucet = Free $$$</string>
+    <string name="send_email">Send Email</string>
+    <string name="feedback_comments">Please Leave Us Feedback, Comments, Questions or Concerns. Thank you!</string>
+    <string name="choose_your_language">Please choose your language</string>
+    <string name="language">Language</string>
+    <string name="check_stop_blocking">I only want cash calls and contacts to ring my phone.</string>
+    <string name="stop_start_blocking">Stop/Start Blocking</string>
+    <string name="blockedCalls">Blocked Calls</string>
+    <string name="version">Version&#160;</string>
+    <string name="app_name" translatable="false">KarmaCall</string>
+    <string name="app_name_robo" translatable="false">Karma</string>
+    <string name="app_name_cash" translatable="false">Call</string>
+    <string name="globalUserPhoneNumber">com.fyncom.robocash.UserPhoneNumber</string>
+    <string name="globalUserNanoAccount">com.fyncom.robocash.UserNanoAccount</string>
+    <string name="globalNewFaucetUser">com.fyncom.robocash.NewFaucetUser</string>
+    <string name="globalUserId">com.fyncom.robocash.UserId</string>
+    <string name="globalWalletId">com.fyncom.robocash.WalletId</string>
+    <string name="globalLastVerificationSession">com.fyncom.robocash.LastVerificationSession</string>
+    <string name="globalCountryCode">com.fyncom.robocash.CountryCode</string>
+    <string name="Settings">Settings</string>
+    <string name="Wallet">Wallet</string>
+    <string name="Contact_Us">Contact Us</string>
+    <string name="Coming_soon">Coming soon…</string>
+    <string name="Withdraw">Withdraw</string>
+    <string name="Withdrawal_Request">Withdrawal Request</string>
+    <string name="Deposit">Deposit</string>
+    <string name="Faucet">Use Faucet - Get Free $$ Instantly</string>
+    <!--    Future work - remove usages of nano "address", use nano "account" instead-->
+<!--    Note, RoboServer uses nano "address" and this is fine to leave that usage on RoboServer-->
+<!--    When moving values from RoboServer into the front end app however, please use nano "account"-->
+<!--    as that is the proper terminology to use with everyone we speak to.-->
+    <string name="Nano_address">nano Address</string>
+    <string name="See_my_Nano_account">See my nano account</string>
+    <string name="Nano_account">nano account</string>
+    <string name="Here_is_your_Nano_account">Here is your nano account</string>
+    <string name="Gift_cards">Gift cards</string>
+    <string name="Cash_out_to_USD">Cash out to USD</string>
+    <string name="Nano_value">nano Value</string>
+    <string name="USD">USD value</string>
+    <string name="Referral">Referral</string>
+    <string name="USD_Funds">USD Funds</string>
+    <string name="Nano_Funds">nano Funds</string>
+    <string name="USD_Earned">USD Earned</string>
+
+    <!--    Also, begin to use proper capitalization in app where possible.-->
+<!--    Low priority - Should variable names in XML files follow Java standards?
+    e.g. "Update_My_Nano_Account changes to updateMyNanoAccount-->
+    <string name="Update_My_Nano_Account">Update my nano account</string>
+    <string name="Submit_Ticket">Submit Ticket</string>
+    <string name="View_Gift_Cards">View Gift Cards</string>
+    <string name="Privacy_Policy">Privacy Policy</string>
+    <string name="My_Phone_Number">My Phone Number</string>
+    <string name="Enter_Phone_Number">Enter phone number</string>
+    <string name="Update_My_Phone_Number">Update my phone number</string>
+    <string name="Verify_My_Phone_Number">Verify my phone number</string>
+    <string name="Register_My_Phone_Number">Register my phone number</string>
+    <string name="Enter_Phone_Number_For_OTP">Please enter the phone number of this device to get a one-time password sent to you through SMS</string>
+    <string name="Enter_OTP_Response">Please enter the password that was messaged to you</string>
+    <string name="My_OTP">My 6 digit code</string>
+    <string name="Amount_To_Withdraw">Enter Amount of nano to Withdraw</string>
+    <string name="Enter_Nano_Account_To_Withdraw_To_Below"> Enter your external nano account below</string>
+    <string name="Open_navigation_drawer">Open navigation drawer</string>
+    <string name="Close_navigation_drawer">Close navigation drawer</string>
+    <string name="Journal">Blocked Calls</string>
+    <string name="Information">Information</string>
+    <string name="Exit">Exit</string>
+    <string name="SELECT_ALL">SELECT ALL</string>
+    <string name="DELETE">DELETE</string>
+    <string name="CANCEL">CANCEL</string>
+    <string name="CONTINUE">CONTINUE</string>
+    <string name="ADD">ADD</string>
+    <string name="Adding_contact">Adding a contact</string>
+    <string name="Saving_">Saving…</string>
+    <string name="Loading_">Loading…</string>
+    <string name="call_is_blocked">call is blocked</string>
+    <string name="message_is_blocked">message is blocked</string>
+    <string name="message_is_received">message is received</string>
+    <string name="Private_number">Private number</string>
+    <string name="Search_action">Search</string>
+    <string name="Starts_with">Starts with:</string>
+    <string name="Ends_with">Ends with:</string>
+    <string name="Delete_record">Delete record</string>
+    <string name="Copy_number">Copy number</string>
+    <string name="Copy_text">Copy text</string>
+    <string name="Find_similar_records">Find similar records</string>
+    <string name="Exclude_from_black_list">Exclude contact from the Blacklist</string>
+    <string name="Move_to_white_list">Move contact to the Whitelist</string>
+    <string name="Move_to_black_list">Move contact to the Blacklist</string>
+    <string name="needs_permission">needs permission</string>
+    <string name="needs_permissions">needs permissions</string>
+    <string name="Write_message">Write message</string>
+    <string name="Copied_to_clipboard">Copied to clipboard</string>
+    <string name="Menu_button">Menu button</string>
+    <string name="List_is_empty">List is empty</string>
+    <string name="Logo_motto">Get Paid To Stop Spam</string>
+    <string name="About">About</string>
+    <string name="Info_about">  </string>
+    <string name="Welcome">Welcome!</string>
+    <string name="Info_welcome">
+        We will send all unknown calls to your voicemail unless they leave you a $0.05 NanoDeposit.
+        If an unknown call rings more than once, it means they have left you a NanoDeposit.
+        Answer  the call to find out who left you a deposit.
+        If you don\'t  like the call, just hang up before 25 seconds and keep the deposit.
+    </string>
+    <string name="FAQ">FAQ</string>
+    <string name="Info_FAQ">
+        What is KarmaCall?
+        \n
+        \nKarmaCall is a phone application that allows you to block annoying spam and telemarketer calls
+        while making money in the process!
+        \n
+        \nHow does KarmaCall function?
+        \nWe pay you every time you let us block a call for you.
+        \n
+        \nIf the phone number that is calling you is not in your contacts list, KarmaCall will require a
+        small nano deposit for that caller to call you. If you answer that call and hang up before 25 seconds,
+        you get to keep the nano deposit. If you answer and the call last longer than 25 seconds, the full nano
+        deposit will be refunded to the caller. If the caller leaves a NanoDeposit and you do not answer,
+        the caller is fully refunded. If the caller does not leave a NanoDeposit, they are sent
+        straight to your voicemail.
+        \n
+        \nHow can I stop blocking phone calls?
+        \n
+        \nClick the main menu (upper left hand side). Click the \"Stop/Start Blocking\" blocking option.
+        Click the \"No\" option on the message that pops up. Now, when you access the Android Quick Settings menu
+        (just drag your finger from the top of your screen downward), you should no longer see KarmaCall running.
+        \n
+        \nHow can I start blocking phone calls again?
+        \n
+        \nClick the main menu (upper left hand side). Click the \"Stop/Start Blocking\" blocking option.
+        Click the \"Yes\" option on the message that pops up. Now, when you access the Android Quick Settings menu
+        (just drag your finger from the top of your screen downward), you should see KarmaCall running.
+        \n
+        \nWhy are there several permissions to use KarmaCall and what do they mean?
+        \n
+        \nWe ask you for 2 permissions:
+        \n 1. Access Contacts
+        \n 2. Make and Manage Phone Calls
+        \n
+        \nIn order for our app to successfully block callers,
+        \nwe need access to your contact list so we can block or allow the correct calls. We cannot see,
+        change or manage your contacts list at all. Along with contacts, we need to manage phone calls,
+        which gives us the ability to block calls for you. We will not change the way your phone operates in any other way.
+        \n
+        \nWhy do I need to provide my phone number?
+        \n
+        \nKarmaCall needs your phone number so we can create a nano account for you. We only ask for your phone number once
+        and do not use or share this information with anyone. Your privacy is extremely valuable and we will
+        keep it that way. If you still have concerns, please read our Privacy Policy or contact us at support@karmacall.com
+        \n
+        \nWhat is the 6 digit password that was texted to me when I verified my phone number?
+        \n
+        \nThis is called a One Time Password (OTP).
+        \nThis password is a verification method to make sure you are you. It is very important that you DO NOT SHARE this
+        password with anyone, as it can give someone else access to your account and information.
+        \nMake sure you enter this password and delete it once your phone number has been verified.
+        \n
+        \nDoes KarmaCall collect my personal information?
+        \n
+        \nAbsolutely not.
+        \nThe only information we need is your phone number. We do not need any of your personal information and your
+        privacy is a primary concern for us. If you have any further questions, please read our Privacy Policy
+        or contact us at support@karmacall.com
+        \n
+        \nHow can I see my balance?
+        \n
+        \nYou can view your balance on the “Wallet” page, which can be accessed by using the main
+        navigation menu. Your balance will be displayed at the top of that page as USD currency.
+        Furthermore, you can click the “WITHDRAW” button and this page will display your balance
+        in USD and nano currencies.
+        \n
+        \nWhat is nano?
+        \n
+        \nnano is a digital currency based on blockchain technology. It is designed to be fast,
+        scalable and has zero fees! Every account is assigned its own blockchain. To learn more,
+        you can visit
+        \nhttps://docs.nano.org/what-is-nano/overview
+        \n
+        \nWhat is a nano account, and what does KarmaCall do with it?
+        \n
+        \nThink of your nano account with KarmaCall as a digital coin purse or a small money bag.
+        You can withdraw and spend small amounts of money with our help.
+        Every time you block a call, We deposit money into your nano account. If an unsolicited caller calls
+        you and you hang up before 25 seconds, the deposit of that caller goes into your nano account.
+        This nano account is associated with your phone number, but you can create external nano accounts if
+        you want to withdraw nano from your KarmaCall account to an external nano account that you own.
+        \n
+        \nWhat options do I have to withdraw my nano balance?
+        \n
+        \nThere are several options to withdraw a nano balance. First, you can enter an external
+        nano account address, and simply withdraw the funds directly to that account. If you do not have
+        an external nano account address, we recommend downloading the Nalli app or Natrium app.
+        You can find these wallet apps and more, in this link. https://nanowallets.guide
+        \nSecond, you can withdraw the funds in the form of gift cards. This feature is still being
+        developed and is not expected until November 21st, 2021.
+        If you would like to try this out on your own outside the app, visit https://nanogate.io
+        \n
+        \nHow can I add funds to my nano balance?
+        \n
+        \nCurrently, we do not have a deposit functionality in the App to allow users to add funds
+        to their KarmaCall nano account. However, we do have a faucet which allows you to receive a
+        small amount of nano to start using immediately for free!
+        \n
+        \nWhat is a faucet?
+        \n
+        \nA nano faucet is just like a sink faucet, except it dispenses small denominations of digital
+        currency, in our case nano. Our faucet can be used once by each user. This can be done by
+        navigating to the “Wallet” page and clicking the “FAUCET = FREE $$$” button. Using our
+        faucet will give you 0.0001 nano.
+        \n
+        \nHow do I use the faucet?
+        \n
+        \nJust simply click our “FAUCET = FREE $$$” button on the “Wallet” page and you will
+        instantly get nano to use for free!
+        \n
+        \nWhat can I do with the nano I receive from the faucet?
+        \n
+        \nPlease visit https://usenano.org  to see the different ways you can use your nano. Within the
+        KarmaCall app, the nano you get from our Faucet will allow you to make 5 free outbound calls
+        to receivers who do not have you (the caller) as a contact. This will give you the
+        opportunity to try out more functionalities of KarmaCall.
+        \n
+        \nHow can I get into contact with support if I need any assistance?
+        \n
+        \nYou can navigate to our “Contact Us” page located on the App’s main navigation menu in the
+        top left hand corner.
+        On this page, you simply click the “SEND EMAIL” button, select the email app you would
+        like to use to send the email, and send. Your feedback is important to us. We want to help
+        with any issues you may be experiencing. Let us know how we can make your experience
+        the best we possibly can!
+        \n
+        \nI am new to the app, where can I find an app demo or tutorial?
+        \n
+        \nA demo of the app (or video tutorial) will be located on the main page of our website starting
+        by November 1st, 2021.
+        \n
+        \nKarmaCall is free. Am I the product?
+        \n
+        \nYes, you are the product and our mission is to get you paid what you deserve. Currently,
+        you do not get paid for the data you give out every day. Instead, most companies make money
+        by selling your attention to advertisers. We invented a way to force companies to pay you for
+        your time in order to get your attention.
+        \nOur technology will be used to help businesses get in contact with real, honest
+        customers like you. Businesses will pay you in order to keep you on the line or you can just
+        hang up on them right away to collect their deposit! Either way, we want to give you the power
+        to get paid for your data and time. Of course, a fraction of these payments
+        will be kept by KarmaCall so we can continue to improve our technology to create
+        a world in which we can have meaningful communications again! Our mission
+        is to get you paid for your data and to convince other companies that they should be paying you
+        for your data too.
+    </string>
+    <string name="permissionRequest">Requesting Permissions To Be Your Cash-Back Spam Blocker</string>
+    <string name="permissionWarning">Without these permissions, we cannot block calls for you. Are you sure you want to proceed?
+        You can register your phone number for call-blocking functionality in the app later. </string>
+    <string name="android9Warning">Sorry, this app does not work for Android 9.</string>
+    <string name="permissionPurpose">
+        We need permissions to serve as your personal paywall.
+        \nWe only use these permissions to allow cash-calls and your friends/family through, while blocking unpaid, unsolicited calls</string>
+    <string name="permissionRequired">Enable permissions</string>
+    <string name="permissionRequestInformation">
+        Put in here about string if needed
+    </string>
+    <string name="Attention">Attention</string>
+    <string name="Messaging">Messaging</string>
+    <string name="Info_messaging">SMS.</string>
+    <string name="Black_list">Black list</string>
+    <string name="Info_black_list">Blacklist</string>
+    <string name="White_list">White list</string>
+    <string name="Info_white_list">Whitelist.</string>
+    <string name="Info_journal">
+        This is the list of records with info about the events of calls/SMS blocking.
+        Disabling logging of the events can be done in the Settings.
+    </string>
+    <string name="Licence">Licence</string>
+    <string name="Info_licence">Copyright</string>
+    <string name="Author">Author</string>
+    <string name="Info_author">"KarmaCall"</string>
+    <string name="About_us">About us</string>
+    <string name="About_us_message">
+	Imagine a future where every unknown phone call comes with a guarantee of IMMEDIATE financial
+	compensation.
+	\nBy using this app, you are making that future a reality. Thank you.
+
+	\n\nWe developed this application to fight back against scammers who steal more than $10 Billion
+
+	every year from vulnerable people through phone fraud. We will give you power over your most
+
+	precious commodity. Your Time.
+
+	\n\nThis app will always be free to use, because everyone that joins us becomes part of the
+
+	bigger picture of data revolution. If enough of us refuse to answer calls, the bad actors will notice and  you will get paid for your data.
+
+	\n\nThank you for being part of the revolution.
+
+	\n\nHelp us with brutally honest feedback and bug reports.
+
+	\n\nSincerely,
+
+	\nAEG, DRJ, VJ, JC, PJG, CR.
+
+    </string>
+    <string name="Our_Commitment">Our Commitment</string>
+    <string name="Our_Commitment_Description">
+        Our mission is to create a market which financially rewards all its participants and is
+        strengthened by numbers. Through KarmaCall, your data becomes a commodity which you have
+        the power to sell or keep to yourself. We believe the future of great businesses is in
+        shared prosperity and that requires that you are financially compensated for your data and time.
+        \n\nWe stand by the new European Union policy, giving our clients and users a greater say in
+        what happens with their data.
+    </string>
+    <string name="GDPR">What is GDPR?</string>
+<!--    Would like to have the Cash in our name show our color like header_nav_bar_main.xml. Need to fix
+    the linking at the end as well. See
+    https://stackoverflow.com/questions/9204303/android-is-it-possible-to-add-a-clickable-link-into-a-string-resource-->
+    <string name="GDPR_Description">The GDPR (General Data Protection Regulation) went into effect on May 25, 2018 in the
+        European Union. The GDPR applies to every company that processes EU citizens’ PII
+        (Personally Identifiable Information). This new law prioritizes the importance of the
+        protection and privacy of your personal information in several key areas. The state of
+        California recently passed the California Consumer Privacy Act (CCPA). All the rights of
+        CCPA are met by complying with the GDPR which KarmaCall does, as described below.
+        \n\nFirst, KarmaCall provides the ability to consent to data collection in an easily accessible
+        format. At KarmaCall, we store your personal contact information – phone number, digital wallet,
+        as well as data concerned with our performance of contract which in part captures digital
+        wallet transactions for anti-spam purposes and length of your call times for improving our
+        services. Along with your basic contact information, we use Flurry Analytics to track how you
+        use our application so we can learn how to improve it to make your experience as enjoyable as
+        possible. Any other data which is VOLUNTARILY provided by you (demographics and
+        psychographics), but is not required for our spam-blocking features, will be stored as well.
+        \n\nSecond, KarmaCall supplies the opportunity to request your data. We display the data
+        currently held under your user and/or business entity in a user-friendly format.
+        KarmaCall does not sell or provide your data to any 3rd party sources for any reason.
+        \n\nThird, KarmaCall presents the option to have all data we have collected, deleted on request.
+        If you make this request, we will comply without undue delay except as required by other
+        laws. For example, some financial data may not be deleted if it is required for tax records.
+        \n\nFor more information,
+        <a href="https://www.techrepublic.com/article/the-eu-general-data-protection-regulation-gdpr-the-smart-persons-guide/">an overview of the EU GDPR regulations can be found here.</a>
+    </string>
+    <string-array name="phone_metadata">
+        <item>equals to:</item>
+        <item>contains:</item>
+        <item>starts with:</item>
+        <item>ends with:</item>
+    </string-array>
+    <string name="title_activity_deposit">ActivityDeposit</string>
+    <!-- Strings used for fragments for navigation -->
+    <string name="first_fragment_label">First Fragment</string>
+    <string name="second_fragment_label">Second Fragment</string>
+    <string name="next">Next</string>
+    <string name="previous">Previous</string>
+    <string name="hello_first_fragment">Hello first fragment</string>
+    <string name="hello_second_fragment">Hello second fragment. Arg: %1$s</string>
+    <string name="CALL">CALL</string>
+    <string name="readyToHandle">Ready to handle incoming calls</string>
+    <string name="protectedWord">Protected</string>
+    <string name="press">Press</string>
+    <string name="toStop">to stop</string>
 </resources>

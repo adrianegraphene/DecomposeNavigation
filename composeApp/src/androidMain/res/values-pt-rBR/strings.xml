@@ -1,0 +1,414 @@
+<resources>
+    tools:ignore="id"
+    <string name="permission_read_phone_state">Ler estado do telefone</string>
+    <string name="permission_read_contacts">Ler contatos</string>
+    <string name="permission_answer_phone_calls">Atender chamadas</string>
+    <string name="permission_call_phone">Fazer chamadas</string>
+    <string name="My_Country_Code">Meu Código do País</string>
+    <string name="blocked_call_notifications">Selecione Alertas de Chamadas Bloqueadas</string>
+    <string-array name="notification_options">
+        <item>Notificar Imediatamente</item>
+        <!--        <item>Notificar no Final do Dia</item>-->
+        <item>Sem Notificações</item>
+    </string-array>
+    <string name="call_was_blocked">a chamada foi bloqueada</string>
+    <string name="rate_limit_exceeded_message">Você atingiu o limite. Por favor, aguarde 5 minutos e tente novamente.</string>
+    <string name="delete_data_popup_message">Eu quero deletar meus dados do KarmaCall. Eu entendo que não terei mais acesso à minha conta nano
+    que está associado à minha conta KarmaCall.</string>
+    <string name="delete_data_long">Se você deseja deletar seus dados de nossos registros, por favor clique no botão abaixo.
+    AVISO - depois de excluir seus dados, você não poderá mais acessar sua conta nano.</string>
+    <string name="delete_data">Excluir meus dados</string>
+    <string name="shareBody">Eu sou pago para bloquear chamadas de spam com KarmaCall!
+        Inscreva-se aqui e ambos receberemos um pagamento extra quando você bloquear sua primeira chamada.
+    </string>
+    <string name="invite">Convidar</string>
+    <string name="referrals">Referências</string>
+    <string name="is">é</string>
+    <string name="errorRetrievingFunds">Erro ao recuperar fundos</string>
+    <string name="codeColon">Código:</string>
+    <string name="referralShare">Compartilhe minha referência</string>
+    <string name="referralInfo">Seja pago sempre que seu amigo se inscrever no
+        seu código de referência e bloqueia sua primeira chamada!</string>
+    <string name="appUpdateToKarmaCall">RoboCash tem um novo nome e log, KarmaCall! Estamos muito animados para dar o próximo passo em nossa jornada com você. Nós não podemos
+        espere para criar mais maneiras de oferecer uma experiência de chamada incrível.</string>
+    <string name="enjoyUsing">Se você gosta de usar&#160;</string>
+    <string name="rateUsPlease">, reserve um momento para nos avaliar. Obrigado por seu apoio!</string>
+    <string name="rate">Taxa&#160;</string>
+    <string name="remindMeLater">Lembre-me mais tarde</string>
+    <string name="noThanks">Não, obrigado</string>
+    <string name="permissionRequestPaid">Solicitando permissões para pagar a você para bloquear spam</string>
+    <string name="registerToGetPaid">Registre seu número de telefone para receber o pagamento</string>
+    <string name="referralRewards">Recompensas de referência</string>
+    <string name="blockingOff">Bloqueando</string>
+    <string name="blockingOn">Bloqueio Ligado</string>
+    <string name="stopBlockingCalls">Pare de bloquear chamadas</string>
+    <string name="stopBlocking">Pare de bloquear</string>
+    <string name="startBlockingCalls">Comece a bloquear chamadas</string>
+    <string name="managePhoneNumber">Gerenciar número de telefone</string>
+    <string name="startBlocking">Comece a bloquear</string>
+    <string name="registerPhoneCashBack">Registre seu número de telefone para receber o dinheiro de volta</string>\
+    <string name="privateNumber">Número privado</string>
+    <string name="no_blocking_simple">Não. Qualquer pessoa pode me ligar.</string>
+    <string name="yes_blocking_simple">Sim. Apenas ligações ou contatos devem ser capazes de me ligar.</string>
+    <string name="check_stop_blocking_simple">Você quer bloquear chamadas?</string>
+    <string name="cancel">Cancelar</string>
+    <string name="iKnowProceedWithoutPermission">Eu sei o que estou fazendo, deixe-me ver seu aplicativo primeiro!</string>
+    <string name="iWantToSelectCheckboxPermission">Quero marcar a caixa de seleção para torná-lo Meu KarmaCall!</string>
+    <string name="yes">sim</string>
+    <string name="no">Não</string>
+    <string name="welcomeBack">Bem vindo de volta!</string>
+    <string name="notRegisteredYet">não registrado ainda</string>
+    <string name="pleaseAcceptPermissions">Aceite as permissões primeiro</string>
+    <string name="myPhoneNumberIs">O meu número de telefone é&#160;</string>
+    <string name="failedMakeNewNanoAccount">não conseguiu criar uma nova conta nano. Você já tem um? Tente verificar seu número de telefone</string>
+    <string name="couldNotConfirmNumber">Não foi possível confirmar o seu número, tente atualizar o seu número de telefone, obrigado</string>
+    <string name="errorGettingExistingNanoAccount">Erro ao recuperar conta nano existente</string>
+    <string name="noPhoneEntered">Nenhum número de telefone foi inserido para verificação</string>
+    <string name="numberNotValidTryAgain">Este não é um número válido, por favor tente novamente</string>
+    <string name="smsCodeNotEntered">OTP não inserido, atualize ou verifique o seu número de telefone</string>
+    <string name="verifyFailed">Falha na verificação</string>
+    <string name="successWelcomeFuture">Sucesso! Bem vindo ao futuro!</string>
+    <string name="code_not_entered">Código SMS não inserido</string>
+    <string name="phoneNumberBlank">O número de telefone para atualização foi deixado em branco. Por favor, tente novamente.</string>
+    <string name="phoneNumberUpdateCancelled">Atualização do número de telefone cancelada</string>
+    <string name="already_registered_phone_number">Você já registrou seu número de telefone</string>
+    <string name="sorry_some_error_balance">Desculpe, ocorreu algum erro ao pesquisar seu saldo</string>
+    <string name="sorry_some_error">Desculpe, algum erro aconteceu</string>
+    <string name="withdraw_failed">A retirada falhou. Verifique o seu valor ou endereço de retirada nano</string>
+    <string name="withdraw_success">O seu envio foi bem sucedido!</string>
+    <string name="invalid_nano_format">Formato de conta nano inválido. Verifique novamente se há erros de digitação na sua conta nano</string>
+    <string name="enter_amount_withdraw">Você deve inserir um valor para sacar</string>
+    <string name="error_with_faucet">Erro ao usar torneira, tente novamente</string>
+    <string name="some_error_balance">Desculpe, ocorreu algum erro ao pesquisar seu saldo</string>
+    <string name="coming_soon">Em breve!</string>
+    <string name="faucet_of_knowledge">Você já usou a torneira, por favor, permita que outros bebam da fonte do conhecimento</string>
+    <string name="no_nano_account_register_please">Você ainda não tem uma conta nano. Tente registrar seu número de telefone</string>
+    <string name="faucet_nano_received">Você recebeu 0,0001 nano!</string>
+    <string name="terms_conditions">Ao usar nossos serviços, você aceita nossa política de privacidade</string>
+    <string name="faucet_free">Torneira = Grátis $$$</string>
+    <string name="send_email">Enviar email</string>
+    <string name="feedback_comments">Por favor, deixe-nos comentários, comentários, perguntas ou preocupações. Obrigado!</string>
+    <string name="choose_your_language">Por favor escolha seu idioma</string>
+    <string name="language">Língua</string>
+    <string name="check_stop_blocking">Só quero que as ligações e contatos toquem no meu telefone.</string>
+    <string name="stop_start_blocking">Parar / começar a bloquear</string>
+    <string name="blockedCalls">Chamadas bloqueadas</string>
+    <string name="version">Versão&#160;</string>
+    <string name="globalUserPhoneNumber">com.fyncom.robocash.UserPhoneNumber</string>
+    <string name="globalUserNanoAccount">com.fyncom.robocash.UserNanoAccount</string>
+    <string name="globalNewFaucetUser">com.fyncom.robocash.NewFaucetUser</string>
+    <string name="globalUserId">com.fyncom.robocash.UserId</string>
+    <string name="globalWalletId">com.fyncom.robocash.WalletId</string>
+    <string name="globalLastVerificationSession">com.fyncom.robocash.LastVerificationSession</string>
+    <string name="globalCountryCode">com.fyncom.robocash.CountryCode</string>
+    <string name="Settings">Configurações</string>
+    <string name="Wallet">Carteira</string>
+    <string name="Contact_Us">Contate-Nos</string>
+    <string name="Coming_soon">Em breve...</string>
+    <string name="Withdraw">Retirar</string>
+    <string name="Withdrawal_Request">Pedido de retirada</string>
+    <string name="Deposit">Depósito</string>
+    <string name="Faucet">Use o Torneira - Ganhe $$ Instantaneamente</string>
+    <string name="Nano_address">Endereço nano</string>
+    <string name="See_my_Nano_account">Veja minha conta nano</string>
+    <string name="Nano_account">Conta nano</string>
+    <string name="Here_is_your_Nano_account">Aqui está sua conta nano</string>
+    <string name="Gift_cards">Cartões de presente</string>
+    <string name="Cash_out_to_USD">Saque em USD</string>
+    <string name="Nano_value">Valor nano</string>
+    <string name="USD">Valor em USD</string>
+    <string name="Referral">Referência</string>
+    <string name="USD_Funds">Fundos em USD</string>
+    <string name="Nano_Funds">nano Fundos</string>
+    <string name="USD_Earned">USD ganhos</string>
+    <string name="Update_My_Nano_Account">Atualize minha conta nano</string>
+    <string name="Submit_Ticket">Enviar tíquete</string>
+    <string name="View_Gift_Cards">Ver cartões-presente</string>
+    <string name="Privacy_Policy">Política de Privacidade</string>
+    <string name="My_Phone_Number">Meu número de telefone</string>
+    <string name="Enter_Phone_Number">Digite o número do telefone</string>
+    <string name="Update_My_Phone_Number">Atualize meu número de telefone</string>
+    <string name="Verify_My_Phone_Number">Verifique meu número de telefone</string>
+    <string name="Register_My_Phone_Number">Registrar meu número de telefone</string>
+    <string name="Enter_Phone_Number_For_OTP">Por favor, insira o número de telefone deste dispositivo para obter uma senha única enviada a você por SMS</string>
+    <string name="Enter_OTP_Response">Por favor, digite a senha que foi enviada para você</string>
+    <string name="My_OTP">Meu código de 6 dígitos</string>
+    <string name="Amount_To_Withdraw">Insira a quantidade de nano a retirar</string>
+    <string name="Enter_Nano_Account_To_Withdraw_To_Below">Insira sua conta nano externa abaixo</string>
+    <string name="Open_navigation_drawer">Abra a gaveta de navegação</string>
+    <string name="Close_navigation_drawer">Fechar gaveta de navegação</string>
+    <string name="Journal">Chamadas bloqueadas</string>
+    <string name="Information">Em formação</string>
+    <string name="Exit">Saída</string>
+    <string name="SELECT_ALL">SELECIONAR TUDO</string>
+    <string name="DELETE">EXCLUIR</string>
+    <string name="CANCEL">CANCELAR</string>
+    <string name="CONTINUE">CONTINUAR</string>
+    <string name="ADD">ADICIONAR</string>
+    <string name="Adding_contact">Adicionando um contato</string>
+    <string name="Saving_">Salvando …</string>
+    <string name="Loading_">Carregando…</string>
+    <string name="call_is_blocked">chamada está bloqueada</string>
+    <string name="message_is_blocked">mensagem está bloqueada</string>
+    <string name="message_is_received">mensagem é recebida</string>
+    <string name="Private_number">Número privado</string>
+    <string name="Search_action">Procurar</string>
+    <string name="Starts_with">Começa com:</string>
+    <string name="Ends_with">Termina com:</string>
+    <string name="Delete_record">Apagar registro</string>
+    <string name="Copy_number">Número da cópia</string>
+    <string name="Copy_text">Copiar texto</string>
+    <string name="Find_similar_records">Encontre registros semelhantes</string>
+    <string name="Exclude_from_black_list">Excluir contato da lista negra</string>
+    <string name="Move_to_white_list">Mover contato para a lista de permissões</string>
+    <string name="Move_to_black_list">Mover contato para a lista negra</string>
+    <string name="needs_permission">precisa de permissão</string>
+    <string name="needs_permissions">precisa de permissões</string>
+    <string name="Write_message">Escrever mensagem</string>
+    <string name="Copied_to_clipboard">Copiado para a área de transferência</string>
+    <string name="Menu_button">Botão de menu</string>
+    <string name="List_is_empty">Lista está vazia</string>
+    <string name="Logo_motto">Pare de Spam. Ganhe dinheiro.</string>
+    <string name="About">Sobre</string>
+    <string name="Info_about" />
+    <string name="Welcome">Bem-vinda!</string>
+    <string name="Info_welcome">Encaminharemos todas as ligações desconhecidas para seu e-mail de voz, a menos que lhe deixem um NanoDeposito de $ 0,05. No caso de receber uma ligação desconhecida por mais de uma vez, significa que deixaram um NanoDeposito para você.
+Continue para descobrir a quem lhe importava o suficiente seu tempo como para arriscar na perda de um NanoDeposito.
+Não gostou a ligação? Desligue antes de 25 segundos e pegue seu NanoDeposito para desperdiçar seu tempo.
+Escute com atenção, algumas pessoas que ligam, podem querer pagar a você mais de US $ 0,05 para mantê-lo falando ;)
+    </string>
+    <string name="FAQ">Perguntas frequentes</string>
+    <string name="Info_FAQ">O que é KarmaCall?
+        \n        \n
+KarmaCall é um aplicativo de telefone que permite bloquear spam irritantes e ligações de telemarketing ao ganhar dinheiro no processo!
+        \n Pagamos-lhe sempre que nos permita bloquear uma chamada por você.
+        \n
+Se o número de telefone que está ligando para você não estiver na sua lista de contatos, o
+        KarmaCall exigirá um pequeno depósito nano para que faz a ligação ligue para você. Se você
+        atende a chamada e desliga antes de 25 segundos, você consegue manter o depósito do nano.
+        Se você atende e a ligação dura mais de 25 segundos, o nano completo, o depósito será
+        devolvido para quem liga. Se a pessoa que liga deixa um depósito nano e você não atende,
+        a pessoa que liga é totalmente reembolsado. Se a pessoa que liga não deixa um depósito nano,
+        eles serão enviados direto para o seu e-mail de voz.
+
+        \n        \nComo posso parar de bloquear chamadas?
+        \n        \nClique no menu principal (lado esquerdo superior).
+
+Clique na opção de bloqueio \"Parar /Iniciar Bloqueio \".
+        Clique na opção \"Não \" na mensagem que aparece. Agora, quando você acessar no menu de
+        configurações rápidas do Android (basta arrastar o dedo de cima para baixo na tela),
+        você não verá mais o KarmaCall em execução.
+
+        \n        \nComo posso começar a bloquear chamadas telefônicas novamente?
+        \n        \nClique no menu principal (lado esquerdo superior).
+        Clique na opção de bloqueio \"Parar /Iniciar Bloqueio \". Clique na opção \"Sim \"
+        na mensagem que aparece. Agora, quando você acessar o menu de configurações rápidas do
+        Android (basta arrastar o dedo do topo da tela para baixo), você deverá ver o KarmaCall
+        em execução
+
+        \n        \nPor que existem várias permissões para usar o KarmaCall e o que significam?
+
+        \n        \nSolicitamos 2 permissões:
+
+        \n1. Acesse os contatos
+
+        \n2. Faça e gerencie ligações telefônicas.
+
+        \n        \nPara que nosso aplicativo bloqueie chamadores com sucesso,
+
+        \nPrecisamos acessar sua lista de contatos para que possamos bloquear ou permitir as chamadas
+        corretas. Nós não podemos ver, alterar ou gerenciar sua lista de contatos em tudo. Junto
+        com os contatos, precisamos gerenciar ligações, o que nos dá a capacidade de bloquear
+        ligações para você. Não alteraremos o funcionamento do seu telefone de nenhuma outra forma.
+
+        \n        \nPor que preciso fornecer meu número de telefone?
+
+        \n        \nKarmaCall precisa do seu número de telefone para que possamos criar uma conta
+        nano para você. Só pedimos o seu número de telefone uma vez e não use ou compartilhe essas
+        informações com ninguém. Sua privacidade é extremamente valiosa e nós iremos mantenha assim.
+        Se você ainda tiver dúvidas, leia nossa Política de Privacidade ou entre em contato conosco
+        pelo e-mail support@karmacall.com
+
+        \n        \nQual é a senha de 6 dígitos que foi enviada para mim quando verifiquei meu número de telefone?
+
+        \n        \nIsto é chamado de One Time Password (OTP).
+
+        \nEsta senha é um método de verificação para ter certeza de que você é você. É muito importante que você NÃO COMPARTILHE esta senha com qualquer pessoa, pois pode dar a outra pessoa acesso à sua conta e informações.
+
+        \nCertifique-se de inserir esta senha e excluí-la assim que seu número de telefone for verificado.
+
+        \n        \nO KarmaCall coleta minhas informações pessoais?
+
+        \n        \nAbsolutamente não.
+        \nA única informação que precisamos é o seu número de telefone. Não precisamos de nenhuma
+        de suas informações pessoais e sua privacidade é uma preocupação fundamental para nós. Se
+        você tiver mais perguntas, leia nossa Política de Privacidade ou contate-nos em support@karmacall.com
+
+        \n        \nComo posso ver meu saldo?
+        \n        \nVocê pode ver o seu saldo na página “Carteira”, que pode ser acessada usando o
+        menu principal de navegação. Seu saldo será exibido na parte superior dessa página como moeda
+        USD. Além disso, você pode clicar no botão “RETIRAR” e esta página exibirá seu saldo em dólares
+        americanos e moedas nano.
+        \n        \nO que é nano?
+        \n        \nnano é uma moeda digital baseada na tecnologia blockchain.
+        Ele é projetado para ser rápido, escalável e sem taxas! Cada conta recebe seu próprio blockchain.
+        Aprender mais, você pode visitar
+
+        \nhttps://docs.nano.org/what-is-nano/overview
+        \n        \nO que é uma conta nano e o que o KarmaCall faz com ela?
+
+        \n        \nPense na sua conta nano com KarmaCall como uma porta-moedas digital ou
+        uma pequena bolsa de dinheiro. Você pode sacar e gastar pequenas quantias de dinheiro
+        com nossa ajuda. Cada vez que você bloqueia uma chamada, depositamos dinheiro em sua conta
+        do nano. Se uma pessoa ruim liga você e você desligarem antes de 25 segundos,
+        o depósito dessa pessoa vai para sua conta nano. Esta conta nano está associada ao seu número
+        de telefone, mas você pode criar contas nano externas se você deseja retirar o nano de sua
+        conta KarmaCall para uma conta nano externa de sua propriedade.
+
+        \n        \nQuais opções eu tenho para retirar meu saldo do nano?
+        \n        \nHá várias opções para retirar um saldo do nano. Primeiro, você pode inserir um Endereço externo da conta nano, e
+        simplesmente retirar os fundos diretamente para essa conta. Se você não tem um endereço de
+        conta nano externo, recomendamos o download do aplicativo Nalli ou do aplicativo Natrium.
+        Você pode encontrar esses aplicativos de carteira e muito mais neste link.  https://nanowallets.guide
+
+        \nEm Segundo ligar, você pode retirar os fundos na forma de cartões-presente.
+        Este recurso ainda está sendo desenvolvido e não é esperado até 21 de novembro de 2020.
+
+Se você quiser experimentar por conta própria fora do aplicativo, visite https://nanogate.io
+
+        \n        \nComo posso adicionar fundos ao meu saldo do nano?
+
+        \n        \nAtualmente, não temos uma funcionalidade de depósito no aplicativo para permitir que os usuários adicionem fundos
+        para sua conta KarmaCall nano. No entanto, temos uma torneira que permite que você receba um
+        pequena quantidade de nano para começar a usar imediatamente de graça!
+
+        \n        \nO que é uma torneira?
+        \n        \n
+Uma torneira nano é como uma torneira de pia, exceto que dispensa pequenos valores de moeda digital,
+        no nosso caso nano. Nossa torneira pode ser usada uma vez por cada usuário.
+        Isso pode ser feito navegando até a página “Carteira” e clicando no botão “Torneira = Grátis $$$”.
+        Usando nossa torneira lhe dará 0,0001 nano.
+
+        \n        \nComo faço para usar a torneira?
+
+        \n        \nBasta clicar em nosso botão “Torneira = Grátis $$$” na página “Carteira” e você
+        irá obtenha instantaneamente o nano para usar gratuitamente!
+
+        \n        \nO que posso fazer com o nano que recebo da torneira?
+
+        \n        \nVisite https://usenano.org para ver as diferentes maneiras de usar o nano.
+        Dentro do Aplicativo KarmaCall, o nano que você obtém de nossa Torneira permitirá que você faça
+        5 chamadas gratuitas para destinatários que não têm você (quem liga você) como contato.
+        Isso lhe dará oportunidade de experimentar mais funcionalidades do KarmaCall.
+
+        \n        \nComo posso entrar em contato com o suporte se precisar de ajuda?
+        \n        \nVocê pode navegar até a página "Fale conosco" localizada no menu de navegação
+        principal do aplicativo no canto superior esquerdo. Nesta página, basta clicar no botão
+        “ENVIAR E-MAIL” e selecionar o aplicativo de e-mail que gostaria de usar para enviar o e-mail
+        e enviar. A sua opinião é importante para nós. Queremos ajudar com quaisquer problemas que
+        você possa estar enfrentando. Diga-nos como podemos tornar a sua experiência o melhor que pudermos!
+
+        \n        \nSou novo no aplicativo, onde posso encontrar uma demonstração ou tutorial do aplicativo?
+
+        \n        \nUma demonstração do aplicativo (ou tutorial em vídeo) estará localizada na página principal de nosso website começando
+em 1º de novembro de 2020.
+
+        \n        \nKarmaCall é grátis, então qual é o truque? Eu sou o produto?
+
+        \n        \nSim, você é o produto e nossa missão é fazer com que você pague o que merece.
+        Atualmente, você não é pago pelos dados que fornece todos os dias. Em vez disso, a maioria
+        das empresas ganha dinheiro vendendo sua atenção aos anunciantes. Inventamos uma maneira de
+        forçar as empresas a pagar por seu tempo para ter sua atenção.
+
+        \nNossa tecnologia será usada para ajudar as empresas a entrar em contato com pessoas reais
+        e honestas, clientes como você. As empresas vão pagar a você para mantê-lo na linha ou você
+        pode apenas desligar imediatamente para receber o depósito! De qualquer forma, queremos dar
+        a você o poder para ser pago por seus dados e tempo. Claro, uma pequena fração desses pagamentos
+        será mantido pelo KarmaCall para que possamos continuar, melhorar e construir nossa tecnologia
+        para criar um mundo no qual podemos ter comunicações significativas novamente!
+Nossa missão é fazer com que você seja pago por seus dados e convencer outras empresas de que elas
+        deveriam estar pagando a você por seus dados também.
+</string>
+    <string name="permissionRequest">Solicitar permissões para ser seu bloqueador de spam de reembolso</string>
+    <string name="permissionWarning">Sem essas permissões, não podemos bloquear ligações para você. Tem certeza de que deseja continuar? Você pode registrar seu número de telefone para a função de bloqueio de ligações no aplicativo depois. </string>
+    <string name="android9Warning">Este aplicativo não funciona para Android 9.</string>
+    <string name="permissionPurpose">Precisamos de permissões para respaldar seu acesso de pago pessoal.
+        \nSó usamos essas permissões para permitir ligações em dinheiro e para seus amigos /família, entanto que bloqueamos ligações não pagas e não pedidas</string>
+    <string name="permissionRequired">Habilitar permissões</string>
+    <string name="permissionRequestInformation">Coloque aqui sobre o barbante, se necessário</string>
+    <string name="Attention">Atenção</string>
+    <string name="Messaging">Mensagens</string>
+    <string name="Info_messaging">SMS.</string>
+    <string name="Black_list">Lista negra</string>
+    <string name="Info_black_list">Lista negra</string>
+    <string name="White_list">Lista branca</string>
+    <string name="Info_white_list">Whitelist.</string>
+    <string name="Info_journal">Esta é a lista de registros com informações sobre os eventos de bloqueio de chamadas /SMS.         A desativação do registro dos eventos pode ser feita nas Configurações.</string>
+    <string name="Licence">Licença</string>
+    <string name="Info_licence">direito autoral</string>
+    <string name="Author">Autor</string>
+    <string name="Info_author">"KarmaCall"</string>
+    <string name="About_us">Sobre nós</string>
+    <string name="About_us_message">Imagine um futuro no qual cada telefonema desconhecido venha com uma garantia de financiamento IMEDIATA.
+Compensação, se aquela pessoa desconhecida desperdiça seu tempo.
+        \n Ao usar este aplicativo, você está nos ajuda a tornar esse futuro uma realidade. Obrigado.
+        \n\n Isto foi feito para ajudá-lo a lutar contra embusteiros que roubam mais de US $ 10 bilhões todos os anos, a pessoas vulneráveis por meio de fraude telefônica. Nós daremos a você poder sobre sua mercadoria preciosa: seu tempo.
+        \n\n Este aplicativo será sempre gratuito para usar, porque todos que se juntam a nós tornam-se parte da imagem mais ampla da propriedade de dados.
+        Se um número suficiente de nós se recusa em atender ligações, a menos que venham com um NanoDepositos anexado,
+        adivinhe o que TEM que acontecer às pessoas que regularmente ligam?
+        Eles PRECISAM começar a usar NanoDepositos. Você acaba sendo pago por seus dados, como sempre deveria ter sido.
+        \n\n Obrigado por fazer parte de nossa revolução.
+        \n\n Ajude-nos com feedback brutalmente honesto e relatórios de erros.         \n\n Atenciosamente,
+        \nAEG, DRJ, VJ, JC, PJG, CR</string>
+    <string name="Our_Commitment">Nosso compromisso</string>
+    <string name="Our_Commitment_Description">Nossa missão é criar um mercado que recompense financeiramente todos os seus participantes e que sejam fortalecidos pelos números.
+        Através do KarmaCall, seus dados se tornam uma mercadoria que tem o poder de vender ou guardar para você mesmo. Acreditamos que o futuro das grandes empresas está em prosperidade compartilhada e isso requer que você seja financeiramente compensado por seus dados e tempo.
+        \n\n Apoiamos a nova política da União Europeia, dando aos nossos clientes e usuários uma voz mais ativa no que acontece com seus dados.</string>
+    <string name="GDPR">O que é GDPR?</string>
+    <string name="GDPR_Description">O GDPR (Regulamento Geral de Proteção de Dados) entrou em vigor
+        no 25 de maio de 2018 na União Europeia. O GDPR se aplica a todas as empresas que processam
+        PII de cidadãos da UE (Informação pessoalmente identificável).
+        Esta nova lei prioriza a importância da proteção e privacidade de suas informações pessoais
+        em várias áreas importantes. O Estado da Califórnia recentemente aprovou
+        o Califórnia Consumer Privacy Act (CCPA). Todos os direitos dos CCPA são cumpridos ao
+        cumprir o GDPR que a KarmaCall faz, conforme descrito a seguir.
+        \n\n Primeiro, o KarmaCall oferece a capacidade de consentir com a coleta de dados, em um
+        formato, de forma facilmente acessível. No KarmaCall, armazenamos suas informações de contato
+        pessoal - número de telefone, carteira digital, bem como dados relacionados com o nosso
+        desempenho do contrato que em parte captura transações de carteira para fins anti-spam e
+        duração de suas chamadas para melhorar nosso Serviços. Junto com suas informações básicas de
+        contato, usamos o Flurry Analytics para rastrear como você usa nosso aplicativo para que
+        possamos aprender como melhorá-lo para tornar sua experiência tão agradável quanto possível.
+        Quaisquer outros dados que sejam VOLUNTARIAMENTE fornecidos por você (dados demográficos
+        e psicográficos), mas não são necessários para nossos recursos de bloqueio de spam, também
+        serão armazenados.
+
+        \n\n Segundo, KarmaCall oferece a oportunidade de solicitar seus dados. Nós exibimos os
+        dados atualmente mantidos sob o seu usuário e /ou entidade comercial em um formato amigável.
+KarmaCall não vende ou fornece seus dados a nenhuma fonte de terceiros por qualquer motivo.
+
+        \n\n Terceiro, KarmaCall apresenta a opção de ter todos os dados que coletamos, excluídos
+        mediante solicitação. Se você fizer essa solicitação, atenderemos sem atrasos indevidos,
+        exceto conforme exigido pela lei.
+        Por exemplo, alguns dados financeiros não podem ser excluídos se forem necessários
+        para registros fiscais.
+        \n\nPara mais informações,<a href="https://www.techrepublic.com/article/the-eu-general-data-protection-regulation-gdpr-the-smart-persons-guide/"> uma visão geral dos regulamentos GDPR da UE pode ser encontrada aqui.</a> </string>
+    <string-array name="phone_metadata">
+        <item>igual a:</item>
+        <item>contém:</item>
+        <item>começa com:</item>
+        <item>termina com:</item>
+    </string-array>
+    <string name="title_activity_deposit">ActivityDeposit</string>
+    <string name="first_fragment_label">Primeiro fragmento</string>
+    <string name="second_fragment_label">Segundo fragmento</string>
+    <string name="next">Próximo</string>
+    <string name="previous">Anterior</string>
+    <string name="hello_first_fragment">Olá primeiro fragmento</string>
+    <string name="hello_second_fragment">Olá, segundo fragmento. Arg: %1$s</string>
+    <string name="CALL">CHAMADA</string>
+    <string name="readyToHandle">Pronto para lidar com chamadas recebidas</string>
+    <string name="protectedWord">Protegido</string>
+    <string name="press">Pressione</string>
+    <string name="toStop">para parar</string>
+</resources>
