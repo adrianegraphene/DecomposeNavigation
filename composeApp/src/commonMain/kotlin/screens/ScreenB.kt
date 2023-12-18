@@ -26,7 +26,7 @@ fun ScreenB(text: String, component: ScreenBComponent) {
         horizontalAlignment = Alignment.CenterHorizontally,
         verticalArrangement = Arrangement.Center
     ) {
-        Text("Screen B: $text")
+        Text("Screen B Decompose: $text")
         Button(onClick = {
             component.goBack()
         }) {

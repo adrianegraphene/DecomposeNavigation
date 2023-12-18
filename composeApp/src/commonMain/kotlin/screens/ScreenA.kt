@@ -26,7 +26,7 @@ fun ScreenA(component: ScreenAComponent) {
         horizontalAlignment = Alignment.CenterHorizontally,
         verticalArrangement = Arrangement.Center
     ) {
-        Text("Screen A")
+        Text("Screen A Decompose")
         OutlinedTextField(
             value = text,
             onValueChange = { component.onEvent(ScreenAEvent.UpdateText(it)) },
